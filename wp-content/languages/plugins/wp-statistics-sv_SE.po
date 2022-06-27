@@ -1,0 +1,3016 @@
+# Translation of Plugins - WP Statistics - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - WP Statistics - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-11 18:27:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - WP Statistics - Stable (latest release)\n"
+
+#: includes/admin/templates/settings/general.php:97
+msgid "Log Visitors Pages:"
+msgstr "Logga besökarsidor:"
+
+#: includes/admin/templates/settings/general.php:261
+msgid "Enable this option if the Cache is enabled in your WordPress"
+msgstr "Aktivera detta alternativ om cachen är aktiverad i din WordPress"
+
+#: includes/admin/templates/settings/general.php:250
+msgid "Cache Compatibility"
+msgstr "Cache-kompatibilitet"
+
+#: includes/class-wp-statistics-meta-box.php:186
+msgid "WP Statistics - v%s"
+msgstr "WP Statistics – v%s"
+
+#: includes/admin/templates/settings/notifications.php:117
+msgid "To set your own schedule, check out <a href=\"%s\" target=\"_blank\">this doc</a>."
+msgstr "För att ställa in ditt eget schema, kolla in <a href=\"%s\" target=\"_blank\">detta dokument</a>."
+
+#: includes/admin/templates/pages/pages.php:6
+#: includes/admin/templates/pages/pages.php:9
+#: includes/class-wp-statistics-meta-box.php:198
+msgid "Top 5 Trending Pages"
+msgstr "5 populäraste trendande sidor"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-top-pages-chart.php:67
+msgid "Top 5 Trending Pages from %s to %s"
+msgstr "5 populäraste trendande sidor från %s till %s"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-top-pages-chart.php:65
+msgid "Top 5 Trending Pages in the last %s days"
+msgstr "5 populäraste trendande sidor under senaste %s dagarna"
+
+#: includes/admin/templates/layout/tabs-settings.php:8
+msgid "Roles"
+msgstr "Roller"
+
+#: includes/api/v2/class-wp-statistics-api-hit.php:133
+msgid "WP-Statistics has no problem establishing a connection to the WordPress REST API."
+msgstr "WP-Statistics har inga problem att etablera en anslutning till WordPress REST API:et."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:142
+msgid "Successfully optimized the %s table."
+msgstr "Tabellen %s har optimerats."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:137
+msgid "The %s table is already optimized."
+msgstr "Tabellen %s är redan optimerad."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:128
+msgid "Failed to repair the %1$s table. Error: %2$s"
+msgstr "Lyckades inte reparera tabellen %1$s. Fel: %2$s"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:126
+msgid "Successfully repaired the %s table."
+msgstr "Tabellen %s har reparerats."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:121
+msgid "The %1$s table is not okay. It is reporting the following error: %2$s. WordPress will attempt to repair this table&hellip;"
+msgstr "Tabellen %1$s är inte OK. Följande fel rapporteras: %2$s. WordPress kommer att försöka reparera tabellen &hellip;"
+
+#. translators: %s: Table name.
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:118
+msgid "The %s table is okay."
+msgstr "Tabellen %s är OK."
+
+#: includes/admin/templates/optimization/database.php:60
+msgid "Run Now!"
+msgstr "Kör nu!"
+
+#: includes/admin/templates/optimization/database.php:57
+msgid "Please select the table you would like to optimize and repair"
+msgstr "Välj tabellen du vill optimera och reparera"
+
+#: includes/admin/templates/optimization/database.php:40
+msgid "Please select database table"
+msgstr "Välj databastabell"
+
+#: includes/admin/templates/optimization/database.php:32
+msgid "Optimize Table:"
+msgstr "Optimera tabell:"
+
+#: includes/admin/templates/optimization/database.php:27
+msgid "Repair and Optimization Database Tables"
+msgstr "Reparera och optimera databastabeller"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:280
+msgid "An error occurred while connecting to WordPress REST API. It seems blocked by one of your plugins or your theme."
+msgstr "Ett fel uppstod vid anslutning till WordPress REST API. Det verkar som om något tillägg eller ditt tema blockerar API:et."
+
+#: includes/admin/class-wp-statistics-admin-notices.php:71
+msgid "Here is an error associated with Connecting WordPress Rest API"
+msgstr "Här är ett fel associerat med anslutning av WordPress Rest API"
+
+#: includes/admin/templates/settings/exclusions.php:148
+msgid "Add the country codes (one per line, two letters each) to exclude them from statistics collection."
+msgstr "Lägg till landskoder (en per rad, två bokstäver vardera) för att exkludera dem från statistikinsamling."
+
+#: includes/admin/meta-box/wp-statistics-meta-box-exclusions.php:63
+msgid "Exclusions from %s to %s"
+msgstr "Exkluderingar från %s till %s"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-exclusions.php:61
+msgid "Exclusions in the last %s days"
+msgstr "Exkluderingar under de senaste %s dagarna"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-browsers.php:166
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:101
+msgid "%s Statistics from %s to %s"
+msgstr "%s-statistik från %s till %s"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-browsers.php:164
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:99
+msgid "%s Statistics in the last %s days"
+msgstr "%s-statistik för de senaste %s dagarna"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-search.php:69
+msgid "Search engine referrals from %s to %s"
+msgstr "Sökmotorshänvisningar från %s till %s"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-hits.php:93
+#: includes/admin/meta-box/wp-statistics-meta-box-pages-chart.php:72
+msgid "Hits from %s to %s"
+msgstr "Träffar från %s till %s"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-pages-chart.php:70
+msgid "Hits in the in the last %s days"
+msgstr "Träffar de senaste %s dagarna"
+
+#: includes/admin/templates/layout/tabs-settings.php:10
+msgid "CLI"
+msgstr "CLI"
+
+#: includes/admin/templates/settings/maintenance.php:65
+msgid "Purge Visitors More Than:"
+msgstr "Töm besökare fler än:"
+
+#: includes/admin/templates/settings/maintenance.php:37
+msgid "The minimum value is 30 days."
+msgstr "Minsta värdet är 30 dagar."
+
+#: includes/admin/templates/settings/privacy.php:30
+msgid "Also, it disables the \"Store entire user agent string\" setting."
+msgstr "Detta inaktiverar även inställningen ”Lagra hela användaragentsträngen”."
+
+#: includes/admin/templates/settings/notifications.php:191
+msgid "Enable this option to show all notices and suggestions from WP-Statistics in the admin."
+msgstr "Aktivera detta alternativ för att visa alla notiser och förslag från WP-Statistics i admin."
+
+#: includes/admin/templates/settings/notifications.php:77
+msgid "Enable this option to receive stats report via email"
+msgstr "Aktivera det här alternativet för att få statistikrapport via e-post"
+
+#: includes/admin/templates/settings/notifications.php:44
+msgid "Enable it to send a report whenever the GeoIP database is updated."
+msgstr "Aktivera för att skicka en rapport när GeoIP-databasen uppdateras."
+
+#: includes/admin/templates/settings/notifications.php:23
+msgid "Add email addresses you want to receive reports and separate them with a comma."
+msgstr "Lägg till e-postadresser som du vill ska ta emot rapporter och separera dem med ett kommatecken."
+
+#: includes/admin/templates/settings/general.php:297
+msgid "WP-Statistics displays an alert if any of the core features are disabled. To hide these notices, enable this option."
+msgstr "WP-Statistics visar en varning om någon av kärnfunktionerna är inaktiverade. För att dölja dessa aviseringar, inaktivera detta alternativ."
+
+#: includes/admin/templates/settings/general.php:220
+msgid "Enable it to show hits in content"
+msgstr "Aktivera det för att visa träffar i innehåll"
+
+#: includes/admin/templates/settings/general.php:196
+msgid "Enable this option to add Hits Column"
+msgstr "Aktivera detta alternativ för att lägga till kolumnen ”Träffar”"
+
+#: includes/admin/templates/settings/general.php:170
+msgid "Enable this option to remove everything after the “?” in a URL"
+msgstr "Aktivera det här alternativet för att ta bort allt efter ”?” i en URL"
+
+#: includes/admin/templates/settings/general.php:164
+msgid "Strip URL Parameters:"
+msgstr "Ta bort URL-parametrar:"
+
+#: includes/admin/templates/settings/general.php:143
+msgid "Enable this option to count the Pages visits"
+msgstr "Aktivera detta alternativ för att räkna sidbesöken"
+
+#: includes/admin/templates/settings/general.php:123
+msgid "This feature multiplies the number of each visitor. Currently %s."
+msgstr "Denna funktion multiplicerar antalet för varje besökare. För närvarande %s."
+
+#: includes/admin/templates/settings/general.php:102
+msgid "Enable this option to receive a report of each user’s visits to the pages"
+msgstr "Aktivera detta alternativ för att få en rapport om varje användares besök på sidorna"
+
+#: includes/admin/templates/settings/general.php:91
+msgid "Enable this option to show the number of Page Hits (It is the number of unique users which have visited your site)"
+msgstr "Aktivera det här alternativet för att visa antalet sidträffar (Det är antalet unika användare som har besökt din webbplats)"
+
+#: includes/admin/templates/settings/general.php:71
+msgid "Enable this option to show the number of Page Views"
+msgstr "Aktivera detta alternativ för att visa antalet sidvisningar"
+
+#: includes/admin/templates/settings/general.php:22
+msgid "Enable this feature to show online users"
+msgstr "Aktivera denna funktion för att visa användare online"
+
+#: includes/admin/templates/settings/access-level.php:9
+msgid "User Roles"
+msgstr "Användarroller"
+
+#: includes/admin/templates/settings/reset.php:5
+msgid "WP Statistics Reset Options"
+msgstr "Återställning av inställningarna för WP Statistics"
+
+#: includes/admin/templates/settings/overview-display.php:43
+msgid "This option will disable the map display."
+msgstr "Detta alternativ inaktiverar kartvisning."
+
+#: includes/admin/templates/settings/overview-display.php:37
+msgid "Map Display:"
+msgstr "Kartvisning:"
+
+#: includes/admin/templates/settings/overview-display.php:26
+msgid "This option will disable dashboard widgets."
+msgstr "Detta alternativ kommer inaktivera adminpanel-widgetar."
+
+#: includes/admin/templates/settings/overview-display.php:20
+msgid "Dashboard Widgets:"
+msgstr "Adminpanel-widgetar:"
+
+#: includes/admin/templates/settings/visitor-ip.php:140
+msgid "e.g. <code>HTTP_CF_CONNECTING_IP</code> in CloudFlare."
+msgstr "t.ex. <code>HTTP_CF_CONNECTING_IP</code> i CloudFlare."
+
+#: includes/admin/templates/settings/externals.php:49
+msgid "Enable this option to see visitors'city name"
+msgstr "Aktivera detta alternativ för att se besökarnas ortsnamn"
+
+#: includes/admin/templates/settings/externals.php:31
+msgid "Enable this option to get more information and location (country) from a visitor."
+msgstr "Aktivera detta alternativ för att få mer information och plats (land) från en besökare."
+
+#: includes/admin/templates/settings/wp-cli.php:55
+msgid "Show list of Visitors."
+msgstr "Visa lista på besökare."
+
+#: includes/admin/templates/settings/wp-cli.php:44
+msgid "Show Users Online List."
+msgstr "Visa lista på besökare online."
+
+#: includes/admin/templates/settings/wp-cli.php:34
+#: includes/admin/templates/settings/wp-cli.php:45
+#: includes/admin/templates/settings/wp-cli.php:56
+msgid "Usage: "
+msgstr "Användning: "
+
+#: includes/admin/templates/settings/wp-cli.php:33
+msgid "Show a summary of statistics."
+msgstr "Visa en statistiksammanfattning."
+
+#: includes/admin/templates/settings/wp-cli.php:28
+msgid "Summary:"
+msgstr "Sammanfattning:"
+
+#: includes/admin/templates/settings/wp-cli.php:24
+msgid "Commands"
+msgstr "Kommandon"
+
+#: includes/admin/templates/settings/wp-cli.php:14
+msgid "This feature enables you to get WP-Statistics reporting in the WP-CLI."
+msgstr "Denna funktion möjliggör att du kan få WP-statistikrapportering i WP-CLI."
+
+#: includes/admin/templates/settings/wp-cli.php:9
+msgid "Enable WP-CLI:"
+msgstr "Aktivera WP-CLI:"
+
+#: includes/admin/templates/settings/wp-cli.php:5
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+#: includes/admin/templates/settings/exclusions.php:209
+msgid "Excluded URLs:"
+msgstr "Exkluderade URL:er:"
+
+#: includes/admin/templates/settings/exclusions.php:170
+msgid "Excluded Hosts:"
+msgstr "Exkluderade servrar:"
+
+#: includes/admin/templates/settings/exclusions.php:153
+msgid "Included Countries:"
+msgstr "Inkluderade länder:"
+
+#: includes/admin/templates/settings/exclusions.php:145
+msgid "Excluded Countries:"
+msgstr "Exkluderade länder:"
+
+#: includes/admin/templates/settings/exclusions.php:101
+msgid "Add"
+msgstr "Lägg till"
+
+#: includes/admin/templates/settings/exclusions.php:77
+msgid "Force the robot list to reset itself to the default after WP-Statistics updated. Note that any custom robots added to the list will be lost if this option is enabled."
+msgstr "Tvinga robotlistan att återställa sig själv till standard efter att WP-Statistics har uppdaterats. Observera att alla anpassade robotar som läggs till i listan förloras om detta alternativ är aktiverat."
+
+#: includes/admin/templates/settings/exclusions.php:13
+msgid "It generates a lot of data, not only actual user visits but also shows the total number of your site’s hits."
+msgstr "Det genererar mycket data, inte bara faktiska användarbesök utan visar också det totala antalet träffar på din webbplats."
+
+#: includes/admin/templates/pages/top-visitors.php:14
+msgid "No information is available for this day."
+msgstr "Ingen information är tillgänglig för denna dag."
+
+#: includes/admin/templates/pages/author.php:53
+#: includes/admin/templates/pages/category.php:53
+#: includes/admin/templates/pages/tag.php:53
+msgid "All Time Visits:"
+msgstr "Besök sedan starten:"
+
+#: includes/admin/templates/pages/author.php:48
+#: includes/admin/templates/pages/tag.php:48
+msgid "Visits Total:"
+msgstr "Totalt antal besök:"
+
+#: includes/admin/templates/pages/refer.url.php:25
+#: includes/admin/templates/pages/top.refer.php:15
+#: includes/admin/templates/pages/visitors.php:21
+#: includes/admin/templates/pages/words.php:21
+msgid "No information is available."
+msgstr "Ingen information är tillgänglig."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:356
+msgid "Show a different month"
+msgstr "Visa en annan månad"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:352
+msgid "Done"
+msgstr "Klar"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:279
+#: includes/admin/templates/pages/online.php:22
+#: includes/admin/templates/pages/top-visitors.php:28
+#: includes/admin/templates/pages/visitors.php:40
+msgid "User"
+msgstr "Användare"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:278
+msgid "Please Wait ..."
+msgstr "Vänta …"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:277
+msgid "Please enter a valid ip."
+msgstr "Ange ett giltig IP."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:274
+msgid "Filter"
+msgstr "Filtrera"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:273
+msgid "Version List"
+msgstr "Versionslista"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:272
+msgid "Percentage"
+msgstr "Procent"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:270
+#: includes/admin/templates/pages/pages.php:32
+msgid "No data to display"
+msgstr "Ingen data att visa"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:268
+msgid "from"
+msgstr "från"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:266
+msgid "Custom"
+msgstr "Anpassat"
+
+#: includes/admin/class-wp-statistics-admin-template.php:67
+msgid "Template not found."
+msgstr "Mall hittades inte."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:93
+msgid "Top posts Sorted by Hits in this category"
+msgstr "Populäraste inlägg sorterat efter träffar i denna kategori"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:82
+msgid "Top Category Sorted by Hits"
+msgstr "Populäraste kategorier sorterat efter antal träffar"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-platforms.php:37
+msgid "Platform Statistics"
+msgstr "Plattformsstatistik"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:90
+msgid "Top posts Sorted by Hits from the author"
+msgstr "Populäraste inlägg sorterat efter träffar från författaren"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:79
+msgid "Top Author Sorted by Hits"
+msgstr "Populäraste författare sorterat efter antal träffar"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:89
+msgid "Updated Historical Values."
+msgstr "Uppdaterade historiska värden."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:204
+msgid "Filters"
+msgstr "Filter"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:156
+msgid "Custom filter"
+msgstr "Anpassat filter"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:94
+msgid "Top posts Sorted by Hits in this tag"
+msgstr "Populäraste inlägg sorterat efter antal träffar med denna etikett"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:83
+msgid "Top Tag Sorted by Hits"
+msgstr "Populäraste etiketter sorterat efter antal träffar"
+
+#: includes/admin/class-wp-statistics-admin-template.php:94
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:25
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:25
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:25
+msgid "Request is not valid."
+msgstr "Begäran är inte giltig."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-pages.php:108
+msgid "Page Statistics"
+msgstr "Sidstatistik"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-pages.php:32
+msgid "Your request is not valid."
+msgstr "Din begäran är inte giltig."
+
+#: includes/admin/class-wp-statistics-admin-template.php:99
+#: includes/admin/pages/class-wp-statistics-admin-page-top-visitors-today.php:18
+msgid "Time request is not valid."
+msgstr "Tidsbegäran är inte giltig."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-settings.php:559
+msgid "All settings reset."
+msgstr "Alla inställningar återställda."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-settings.php:554
+msgid "Saved Settings."
+msgstr "Sparade inställningar."
+
+#: includes/class-wp-statistics.php:287
+msgid "</strong> or greater."
+msgstr "</strong> eller högre."
+
+#: includes/class-wp-statistics.php:287
+msgid "The <strong>WP-Statistics</strong> plugin requires PHP version <strong>"
+msgstr "Tillägget <strong>WP-Statistics</strong> kräver PHP-version <strong>"
+
+#: includes/class-wp-statistics.php:286
+msgid "Your installed PHP Version is: "
+msgstr "Din installerade PHP-version är: "
+
+#: includes/class-wp-statistics.php:81
+msgid "Cloning is forbidden."
+msgstr "Kloning är förbjudet."
+
+#: includes/class-wp-statistics-helper.php:754
+msgid "Category"
+msgstr "Kategori"
+
+#: includes/class-wp-statistics-geoip.php:280
+msgid "Error to get %s from %s"
+msgstr "Fel att hämta %s från %s"
+
+#: includes/class-wp-statistics-meta-box.php:203
+msgid "Pages Hits"
+msgstr "Sidträffar"
+
+#: includes/class-wp-statistics-meta-box.php:99
+msgid "Top Platforms"
+msgstr "Populära plattformar"
+
+#: includes/class-wp-statistics-exclusion.php:33
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: includes/class-wp-statistics-exclusion.php:28
+msgid "404"
+msgstr "404"
+
+#: includes/class-wp-statistics-exclusion.php:27
+#: includes/class-wp-statistics-pages.php:355
+msgid "Feed"
+msgstr "Webbflöde"
+
+#: includes/class-wp-statistics-exclusion.php:21
+msgid "Broken Link"
+msgstr "Trasig länk"
+
+#: includes/class-wp-statistics-exclusion.php:18
+msgid "Cron job"
+msgstr "Cronjobb"
+
+#: includes/class-wp-statistics-exclusion.php:17
+msgid "Ajax"
+msgstr "Ajax"
+
+#. Description of the plugin
+msgid "This plugin gives you the complete information on your website's visitors."
+msgstr "Detta tillägg ger dig fullständig information om besökarna på din webbplats."
+
+#: includes/api/v2/class-wp-statistics-api-hit.php:104
+msgid "Visitor Hit was recorded successfully."
+msgstr "Besöksträff registrerades."
+
+#: includes/admin/templates/layout/tabs-settings.php:4
+msgid "Visitor IP"
+msgstr "Besökares IP"
+
+#: includes/admin/templates/settings/visitor-ip.php:142
+msgid "Show all <code>$_SERVER</code> in your server."
+msgstr "Visa alla <code>$_SERVER</code> i din server."
+
+#: includes/admin/templates/settings/visitor-ip.php:119
+msgid "Use Custom Header"
+msgstr "Använd anpassat sidhuvud"
+
+#: includes/admin/templates/settings/visitor-ip.php:92
+#: includes/admin/templates/settings/visitor-ip.php:131
+msgid "No available data."
+msgstr "Inga tillgängliga data."
+
+#: includes/admin/templates/settings/visitor-ip.php:87
+msgid "Use %1$s"
+msgstr "Använd %1$s"
+
+#: includes/admin/templates/settings/visitor-ip.php:57
+msgid "Please check your internet connection and try again."
+msgstr "Kontrollera din internet-anslutning och försök igen."
+
+#: includes/admin/templates/settings/visitor-ip.php:43
+msgid "Your real IP detected by ipify.org service:"
+msgstr "Din verkliga IP-adress upptäcktes med tjänsten ipify.org:"
+
+#: includes/admin/templates/settings/visitor-ip.php:19
+msgid "Value"
+msgstr "Värde"
+
+#: includes/admin/templates/settings/visitor-ip.php:18
+msgid "$_SERVER"
+msgstr "$_SERVER"
+
+#: includes/admin/templates/optimization/resources.php:307
+msgid "Server Info"
+msgstr "Serverinformation"
+
+#: includes/class-wp-statistics-install.php:541
+msgid "Item processed"
+msgstr "Objekt hanterat"
+
+#: includes/class-wp-statistics-install.php:539
+msgid "Please don't close the browser window until the database operation was completed."
+msgstr "Stäng inte webbläsarfönstret innan databasoperationen slutförts."
+
+#: includes/class-wp-statistics-install.php:528
+msgid "Error occurred during operation. Please refresh the page."
+msgstr "Ett fel uppstod under operationen. Uppdatera sidan."
+
+#: includes/class-wp-statistics-install.php:490
+msgid "Database upgrade operation completed!"
+msgstr "Databasuppgradering slutförd!"
+
+#: includes/class-wp-statistics-install.php:466
+msgid "Upgrade Database"
+msgstr "Uppgradera databas"
+
+#: includes/class-wp-statistics-install.php:463
+msgid "WP-Statistics database requires upgrade."
+msgstr "WP-Statistics databas kräver uppgradering."
+
+#: includes/class-wp-statistics-pages.php:367
+msgid "Post Archive"
+msgstr "Inläggsarkiv"
+
+#: includes/class-wp-statistics-pages.php:364
+msgid "404 not found"
+msgstr "404 hittades inte"
+
+#: includes/class-wp-statistics-pages.php:361
+msgid "Search Page"
+msgstr "Söksida"
+
+#: includes/class-wp-statistics-pages.php:342
+msgid "Home Page"
+msgstr "Startsida"
+
+#: includes/admin/class-wp-statistics-admin-template.php:165
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/admin/class-wp-statistics-admin-template.php:164
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/class-wp-statistics-user-agent.php:54
+msgid "Edge"
+msgstr "Edge"
+
+#: includes/class-wp-statistics-user-agent.php:53
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: includes/class-wp-statistics-user-agent.php:52
+msgid "Firefox"
+msgstr "Firefox"
+
+#: includes/class-wp-statistics-user-agent.php:51
+msgid "Chrome"
+msgstr "Chrome"
+
+#: includes/admin/templates/settings/externals.php:183
+msgid "Click button to download the update."
+msgstr "Klicka på knappen för att ladda ner uppdateringen."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-online.php:34
+msgid "Currently, there are no online users on the site."
+msgstr "Det är inte några användare online på webbplatsen för närvarande."
+
+#: includes/admin/meta-box/wp-statistics-meta-box-referring.php:35
+#: includes/admin/templates/pages/top.refer.php:22
+msgid "Server IP"
+msgstr "Server-IP"
+
+#: includes/admin/templates/pages/top.refer.php:21
+msgid "Site Title"
+msgstr "Webbplatsrubrik"
+
+#: includes/admin/templates/pages/top.refer.php:20
+msgid "Site Url"
+msgstr "Webbplatsens URL"
+
+#: includes/admin/templates/pages/top.refer.php:19
+msgid "Rating"
+msgstr "Betyg"
+
+#: includes/class-wp-statistics-user-agent.php:56
+msgid "Safari"
+msgstr "Safari"
+
+#: includes/class-wp-statistics-user-agent.php:55
+msgid "Opera"
+msgstr "Opera"
+
+#: includes/admin/templates/meta-box/about.php:14
+msgid "More Info"
+msgstr "Mer information"
+
+#: includes/admin/templates/meta-box/about.php:8
+msgid "Rate & Review"
+msgstr "Betygsätt och recensera"
+
+#: includes/admin/templates/meta-box/about.php:20
+msgid "Power by VeronaLabs"
+msgstr "Drivs med VeronaLabs"
+
+#: includes/admin/templates/settings/general.php:214
+msgid "Hits in Single Page:"
+msgstr "Träffar på en enskild sida:"
+
+#: includes/admin/templates/settings/general.php:191
+msgid "Hits Column"
+msgstr "Kolumn för träffar"
+
+#: includes/admin/templates/settings/privacy.php:9
+msgid "If you want to delete visitor data, please <a href=\"%s\">click here</a>."
+msgstr "Om du vill ta bort besökardata, <a href=\"%s\">klicka här</a>."
+
+#: includes/admin/templates/settings/externals.php:37
+msgid "GeoIP City:"
+msgstr "GeoIP ort:"
+
+#: includes/admin/templates/settings/externals.php:27
+#: includes/admin/templates/settings/externals.php:46
+msgid "Update Database"
+msgstr "Uppdatera databas"
+
+#: includes/admin/templates/settings/exclusions.php:148
+#: includes/admin/templates/settings/exclusions.php:156
+msgid "(%1$sISO 3166 Country Codes%2$s)"
+msgstr "(%1$sISO 3166 landskoder%2$s)"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:251
+#: includes/admin/templates/pages/pages.php:40
+#: includes/admin/templates/pages/refer.url.php:29
+msgid "Link"
+msgstr "Länk"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:250
+#: includes/admin/templates/pages/pages.php:39
+msgid "Title"
+msgstr "Rubrik"
+
+#: includes/admin/class-wp-statistics-admin-template.php:257
+#: includes/class-wp-statistics-geoip.php:483
+#: includes/class-wp-statistics-user-agent.php:71
+msgid "Unknown"
+msgstr "Okänd"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:255
+#: includes/admin/templates/pages/online.php:16
+#: includes/admin/templates/pages/top-visitors.php:23
+#: includes/admin/templates/pages/visitors.php:30
+#: includes/admin/templates/pages/words.php:31
+msgid "City"
+msgstr "Ort"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:253
+#: includes/admin/templates/pages/words.php:25
+msgid "Word"
+msgstr "Ord"
+
+#: includes/class-wp-statistics-search-engine.php:117
+msgid "Qwant"
+msgstr "Antal"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:249
+#: includes/admin/templates/pages/online.php:45
+#: includes/admin/templates/pages/pages.php:38
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:65
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:63
+msgid "Format"
+msgstr "Format"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:61
+msgid "Provider"
+msgstr "Leverantör"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:60
+msgid "Is the time frame (time periods) for the statistic"
+msgstr "Är tidsramen (tidsperioder) för statistiken"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:265
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:58
+msgid "Year"
+msgstr "År"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:264
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:57
+msgid "Month"
+msgstr "Månad"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:263
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:56
+msgid "Week"
+msgstr "Vecka"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:53
+msgid "Select item ..."
+msgstr "Välj objekt &hellip;"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:243
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:52
+msgid "Time"
+msgstr "Tid"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:51
+msgid "The statistics you want, see the next table for available options."
+msgstr "Den statistik du vill ha, se nästa tabell för tillgängliga alternativ."
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:35
+msgid "Stat"
+msgstr "Statistik"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:34
+msgid "WP Statistics Shortcodes"
+msgstr "WP Statistics kortkoder"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:257
+#: includes/admin/templates/pages/online.php:21
+#: includes/admin/templates/pages/top-visitors.php:29
+#: includes/admin/templates/pages/visitors.php:48
+#: includes/admin/templates/pages/words.php:35
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:50
+#: includes/class-wp-statistics-shortcode.php:182
+msgid "Referrer"
+msgstr "Hänvisande webbplats"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:43
+msgid "WP_CACHE is enable in your WordPress"
+msgstr "WP_CACHE är aktiverat i din WordPress-installation"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:43
+msgid "You are using %s plugin in WordPress"
+msgstr "Du använder tillägget %s i WordPress"
+
+#: includes/admin/templates/settings/privacy.php:19
+msgid "This option anonymizes the user IP address for GDPR compliance. For example, 888.888.888.888 > 888.888.888.000."
+msgstr "Det här alternativet anonymiserar användarens IP-adress för GDPR-överensstämmelse. Till exempel 888.888.888.888 > 888.888.888.000."
+
+#: includes/admin/templates/settings/privacy.php:14
+msgid "Anonymize IP Addresses:"
+msgstr "Anonymisera IP-adresser:"
+
+#: includes/admin/templates/settings/notifications.php:185
+msgid "All Notices:"
+msgstr "Alla notiser:"
+
+#: includes/admin/templates/settings/notifications.php:180
+msgid "Admin Notices"
+msgstr "Admin-notiser"
+
+#: includes/admin/templates/settings/notifications.php:144
+msgid "Message body:"
+msgstr "Meddelandets innehåll:"
+
+#: includes/admin/templates/settings/notifications.php:71
+msgid "Statistical Reports:"
+msgstr "Statistiska rapporter:"
+
+#: includes/admin/templates/settings/notifications.php:38
+msgid "GeoIP:"
+msgstr "GeoIP:"
+
+#: includes/admin/templates/settings/maintenance.php:71
+msgid "The number of hits required to delete the visitor."
+msgstr "Antalet träffar som krävs för att ta bort besökaren."
+
+#: includes/admin/templates/settings/maintenance.php:37
+#: includes/admin/templates/settings/maintenance.php:71
+msgid "Invalid values will disable the daily maintenance."
+msgstr "Ogiltiga värden kommer inaktivera det dagliga underhållet."
+
+#: includes/admin/templates/settings/maintenance.php:37
+msgid "The number of days to keep statistics for."
+msgstr "Antalet dagar att behålla statistik för."
+
+#: includes/admin/templates/settings/general.php:138
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: includes/admin/templates/settings/general.php:86
+#: includes/admin/templates/settings/wp-cli.php:50
+msgid "Visitors:"
+msgstr "Besökare:"
+
+#: includes/admin/templates/settings/general.php:65
+msgid "Visits:"
+msgstr "Besök:"
+
+#: includes/admin/templates/settings/general.php:16
+msgid "Online User:"
+msgstr "Användare online:"
+
+#: includes/admin/templates/settings/externals.php:111
+msgid "Use \"000\" (three zeros) to use \"Unknown\" as the country code."
+msgstr "Använd ”000” (tre nollor) för att använda ”Okänt” som landskod."
+
+#: includes/admin/templates/settings/exclusions.php:148
+#: includes/admin/templates/settings/exclusions.php:156
+msgid "Use \"000\" (three zeros) to exclude unknown countries."
+msgstr "Använd ”000” (tre nollor) för att exkludera okända länder."
+
+#: includes/admin/templates/settings/exclusions.php:156
+msgid "Add the country codes (one per line, two letters each) to include them in statistics collection."
+msgstr "Lägg till landskoder (en per rad, två bokstäver vardera) för att inkludera dem i statistikinsamling."
+
+#: includes/admin/templates/settings/exclusions.php:109
+msgid "Use Honey Pot:"
+msgstr "Använd Honey Pot:"
+
+#: includes/admin/templates/settings/exclusions.php:13
+msgid "This option will record all the excluded hits in a separate table with the reasons for excluding (but no other information)."
+msgstr "Detta alternativ registrerar alla exkluderade träffar i en separat tabell med anledningen till att det exkluderats (men ingen annan information)."
+
+#: includes/admin/templates/optimization/purging.php:338
+msgid "All visitor data will be lost for this IP."
+msgstr "All besökardata kommer gå förlorade för denna IP-adress."
+
+#: includes/admin/templates/optimization/purging.php:332
+msgid "Delete IP:"
+msgstr "Ta bort IP:"
+
+#: includes/admin/templates/optimization/purging.php:259
+#: includes/admin/templates/settings/maintenance.php:71
+msgid "Minimum value is 10 hits."
+msgstr "Minsta värde är 10 träffar."
+
+#: includes/admin/templates/optimization/purging.php:257
+msgid "This can be useful to clear up old data when your site has been hit by a bot."
+msgstr "Detta kan vara användbart för att rensa upp gamla data när din webbplats har besökts av en robot."
+
+#: includes/admin/templates/optimization/purging.php:256
+msgid "Delete user statistics data where the user has more than the defined number of hits in a day."
+msgstr "Ta bort användarstatistikdata där användaren har mer än det definierade antalet träffar på en dag."
+
+#: includes/admin/templates/optimization/purging.php:238
+msgid "Minimum value is 30 days."
+msgstr "Minsta värde är 30 dagar."
+
+#: includes/admin/templates/optimization/purging.php:237
+msgid "Delete user statistics data older than the selected number of days."
+msgstr "Ta bort användarstatistikdata som är äldre än det valda antalet dagar."
+
+#: includes/admin/templates/optimization/updates.php:23
+msgid "Countries:"
+msgstr "Länder:"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:182
+msgid "No IP address data found to remove!"
+msgstr "Ingen IP-adressdata hittades att ta bort!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:180
+msgid "%s IP data deleted successfully."
+msgstr "%s IP-data borttaget utan problem."
+
+#: includes/admin/templates/layout/tabs-settings.php:5
+msgid "Privacy"
+msgstr "Integritet"
+
+#: includes/admin/templates/settings/privacy.php:5
+msgid "Privacy and Data Protection"
+msgstr "Integritet och dataskydd"
+
+#: includes/class-wp-statistics-geoip.php:263
+msgid "Error the gzopen() function do not exist!"
+msgstr "Fel, funktionen gzopen() finns inte!"
+
+#: includes/admin/templates/settings/general.php:240
+msgid "Choose the position to show Hits."
+msgstr "Välj positionen för att visa träffar."
+
+#: includes/admin/class-wp-statistics-admin-notices.php:85
+msgid "GeoIP collection is not enabled. Please go to <a href=\"%s\">setting page</a> to enable GeoIP for getting more information and location (country) from the visitor."
+msgstr "GeoIP-insamling är inte aktiverad. Gå till <a href=\"%s\">inställningssidan</a> för att aktivera GeoIP för att få mer information och plats (land) från besökaren."
+
+#: includes/class-wp-statistics-frontend.php:154
+msgid "Hits: %s"
+msgstr "Träffar: %s"
+
+#: includes/admin/templates/settings/general.php:238
+msgid "After Content"
+msgstr "Efter innehåll"
+
+#: includes/admin/templates/settings/general.php:237
+msgid "Before Content"
+msgstr "Före innehåll"
+
+#: includes/admin/templates/settings/general.php:231
+msgid "Display position:"
+msgstr "Visa position:"
+
+#: includes/admin/templates/settings/general.php:133
+msgid "Pages and Posts"
+msgstr "Sidor och inlägg"
+
+#: includes/admin/templates/layout/select.php:5
+msgid "Select Page"
+msgstr "Välj sida"
+
+#. Author URI of the plugin
+msgid "https://veronalabs.com/"
+msgstr "https://veronalabs.com/"
+
+#. Author of the plugin
+msgid "VeronaLabs"
+msgstr "VeronaLabs"
+
+#: includes/admin/templates/postbox.php:4
+msgid "Subscribe to Newsletter"
+msgstr "Prenumerera på nyhetsbrev"
+
+#: includes/admin/templates/postbox.php:11
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+#: includes/admin/templates/postbox.php:8
+msgid "Subscribe to our mailing list for get any news of the WP-Statistics"
+msgstr "Anmäl dig till vår e-postlista för att få nyheter om WP-Statistics"
+
+#: includes/admin/templates/settings/externals.php:10
+msgid "IP location services are provided by data created by %s."
+msgstr "IP-lokaliseringstjänster tillhandahålls av data skapade av %s."
+
+#: includes/admin/templates/settings/about.php:21
+msgid "This product includes GeoLite2 data created by %s."
+msgstr "Denna produkt innehåller data från Geolite2 skapad av %s."
+
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:99
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:101
+#: includes/class-wp-statistics-menus.php:264
+msgid "Platforms"
+msgstr "Plattformar"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-plugins.php:110
+msgid "Add-On deactivated."
+msgstr "Utökning inaktiverad."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-plugins.php:101
+msgid "Add-On activated."
+msgstr "Utökning aktiverad."
+
+#: includes/class-wp-statistics-menus.php:299
+#: includes/class-wp-statistics-menus.php:300
+msgid "Add-Ons"
+msgstr "Utökningar"
+
+#: includes/class-wp-statistics-menus.php:250
+msgid "Authors"
+msgstr "Författare"
+
+#: includes/class-wp-statistics-helper.php:754
+#: includes/class-wp-statistics-menus.php:243
+msgid "Tags"
+msgstr "Etiketter"
+
+#: includes/class-wp-statistics-menus.php:236
+msgid "Categories"
+msgstr "Kategorier"
+
+#: includes/class-wp-statistics-widget.php:90
+#: includes/class-wp-statistics-widget.php:291
+msgid "Last 365 Days Visits"
+msgstr "Besök senaste 365 dagarna"
+
+#: includes/class-wp-statistics-widget.php:83
+#: includes/class-wp-statistics-widget.php:287
+msgid "Last 30 Days Visits"
+msgstr "Besök senaste 30 dagarna"
+
+#: includes/class-wp-statistics-widget.php:76
+#: includes/class-wp-statistics-widget.php:283
+msgid "Last 7 Days Visits"
+msgstr "Besök senaste 7 dagarna"
+
+#: includes/admin/templates/add-ons.php:56
+msgid "Buy Add-On"
+msgstr "Köp utökning"
+
+#: includes/admin/templates/add-ons.php:52
+msgid "Activate Add-On"
+msgstr "Aktivera utökning"
+
+#: includes/admin/templates/add-ons.php:48
+msgid "Deactivate Add-On"
+msgstr "Inaktivera utökning"
+
+#: includes/admin/templates/add-ons.php:39
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: includes/admin/templates/add-ons.php:32
+#: includes/admin/templates/settings/general.php:255
+msgid "Status:"
+msgstr "Status:"
+
+#: includes/admin/templates/add-ons.php:30
+msgid "Version:"
+msgstr "Version:"
+
+#: includes/admin/templates/plugins.php:6
+msgid "These extensions add functionality to your WP-Statistics."
+msgstr "Dessa utökningar lägger till funktionalitet till din WP-Statistics."
+
+#: includes/admin/templates/plugins.php:4
+msgid "Extensions for WP-Statistics"
+msgstr "Utökningar för WP-Statistics"
+
+#: includes/admin/templates/layout/tabs-settings.php:13
+#: includes/admin/templates/settings/reset.php:15
+msgid "Reset"
+msgstr "Återställ"
+
+#: includes/admin/templates/settings/reset.php:10
+msgid "Reset Options:"
+msgstr "Återställ alternativ:"
+
+#: includes/admin/templates/settings/notifications.php:158
+#: includes/class-wp-statistics-admin-bar.php:62
+#: includes/class-wp-statistics-widget.php:48
+#: includes/class-wp-statistics-widget.php:267
+msgid "Today's Visits"
+msgstr "Dagens besök"
+
+#: includes/admin/templates/settings/notifications.php:156
+#: includes/class-wp-statistics-admin-bar.php:58
+#: includes/class-wp-statistics-widget.php:55
+#: includes/class-wp-statistics-widget.php:271
+msgid "Today's Visitors"
+msgstr "Dagens besökare"
+
+#: includes/admin/templates/settings/notifications.php:154
+#: includes/class-wp-statistics-admin-bar.php:53
+msgid "Online User"
+msgstr "Online-användare"
+
+#: includes/admin/templates/settings/externals.php:68
+msgid "First Tuesday of next month"
+msgstr "Första tisdag nästa månad"
+
+#: includes/admin/templates/settings/externals.php:65
+#: includes/class-wp-statistics-schedule.php:157
+msgid "First Tuesday of this month"
+msgstr "Första tisdag i denna månad"
+
+#: includes/admin/templates/settings/exclusions.php:97
+msgid "For IPv6 addresses, use the fc00::/7 format."
+msgstr "Använd formatet ”fc00::/7”  för IPv6-adresser."
+
+#: includes/admin/templates/settings/access-level.php:68
+msgid "See the %sWordPress Roles and Capabilities%s page for details on capability levels."
+msgstr "Se sidan %sWordPress roller och behörigheter%s för information om behörighetsnivåer."
+
+#: includes/admin/templates/settings/about.php:156
+msgid "Then please open a new thread on the %sWordPress.org support forum%s and we'll respond as soon as possible."
+msgstr "Öppna sedan en ny tråd på %sWordPress.org supportforumet%s så svarar vi så snart som möjligt."
+
+#: includes/admin/templates/settings/about.php:148
+msgid "Did you view the source for the page and check for any fatal errors?"
+msgstr "Såg du källan till sidan och kollade efter eventuella kritiska fel?"
+
+#: includes/admin/templates/settings/about.php:143
+msgid "Are you getting a blank or incomplete page displayed in your browser?"
+msgstr "Får du en tom eller ofullständig sida som visas i din webbläsare?"
+
+#: includes/admin/templates/settings/about.php:121
+msgid "Have you search the %ssupport forum%s for a similar issue?"
+msgstr "Har du sökt på %ssupportforumet%s efter ett liknande problem?"
+
+#: includes/admin/templates/settings/about.php:116
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/admin/templates/settings/about.php:114
+msgid "Have you read the %sdocumentation%s?"
+msgstr "Har du läst %sdokumentationen%s?"
+
+#: includes/admin/templates/settings/about.php:107
+msgid "Have you read the %sFAQs%s?"
+msgstr "Har du läst %svanliga frågor%s?"
+
+#: includes/admin/templates/settings/about.php:85
+msgid "WP Statistics supports internationalization. Please visit %sWP Statistics translations page%s to help translation."
+msgstr "WP Statistics stöder internationalisering. Besök %sWP Statistics översättningssida%s för att hjälpa till med översättning."
+
+#: includes/admin/templates/settings/about.php:69
+msgid "Thanks for installing WP Statistics, we encourage you to submit a %srating and review%s over at WordPress.org. Your feedback is greatly appreciated!"
+msgstr "Tack för att du installerade WP Statistics, vi ser gärna att du lämnar ett %sbetyg och en recension%s på WordPress.org. Din feedback är mycket uppskattad!"
+
+#: includes/admin/templates/optimization/resources.php:186
+msgid "BCMath PHP extension"
+msgstr "BCMath PHP-utökning"
+
+#: includes/admin/templates/optimization/resources.php:169
+msgid "GMP PHP extension"
+msgstr "GMP PHP-utökning"
+
+#: includes/admin/templates/optimization/resources.php:162
+msgid "If the gzopen() function is installed. The gzopen() function is required for the GeoIP database to be downloaded successfully."
+msgstr "Om funktionen gzopen() är installerad. Funktionen gzopen() krävs för att GeoIP-databasen ska laddas ner utan problem."
+
+#: includes/admin/templates/optimization/resources.php:152
+msgid "Zlib gzopen()"
+msgstr "Zlib gzopen()"
+
+#: includes/admin/templates/optimization/resources.php:102
+msgid "PHP IPv6 Enabled"
+msgstr "PHP IPv6 aktiverat"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-refer.php:79
+msgid "Referring site: %s"
+msgstr "Hänvisande webbplats: %s"
+
+#: includes/admin/templates/pages/tag.php:39
+msgid "Number of posts in tag:"
+msgstr "Antal inlägg i etikett:"
+
+#: includes/admin/templates/pages/tag.php:23
+#: includes/admin/templates/pages/tag.php:26
+msgid "Tag Statistics Summary"
+msgstr "Sammanfattning av etikettstatistik"
+
+#: includes/admin/templates/pages/tag.php:6
+#: includes/admin/templates/pages/tag.php:9
+msgid "Tag Statistics Chart"
+msgstr "Diagram över etikettstatistik"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:52
+msgid "Select Tag"
+msgstr "Välj etikett"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:40
+msgid "Tag Statistics"
+msgstr "Etikettstatistik"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-search.php:67
+msgid "Search engine referrals in the last %s days"
+msgstr "Sökmotorshänvisningar under de senaste %s dagarna"
+
+#: includes/admin/class-wp-statistics-admin-template.php:171
+msgid "Page %1$s of %2$s"
+msgstr "Sida %1$s av %2$s"
+
+#: includes/admin/templates/pages/category.php:39
+msgid "The Number of Posts in Category:"
+msgstr "Antal inlägg i kategorin:"
+
+#: includes/admin/templates/pages/category.php:23
+#: includes/admin/templates/pages/category.php:26
+msgid "Category Statistics Summary"
+msgstr "Sammanfattning av kategoristatistik"
+
+#: includes/admin/templates/pages/category.php:6
+#: includes/admin/templates/pages/category.php:9
+msgid "Category Statistics Chart"
+msgstr "Diagram över kategoristatistik"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:51
+msgid "Select Category"
+msgstr "Välj kategori"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:39
+msgid "Category Statistics"
+msgstr "Kategoristatistik"
+
+#: includes/admin/templates/pages/author.php:39
+msgid "Number of posts by author:"
+msgstr "Antal inlägg av författare:"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:271
+#: includes/admin/templates/pages/author.php:32
+#: includes/admin/templates/pages/author.php:79
+#: includes/admin/templates/pages/category.php:32
+#: includes/admin/templates/pages/category.php:79
+#: includes/admin/templates/pages/tag.php:32
+#: includes/admin/templates/pages/tag.php:79
+msgid "Count"
+msgstr "Antal"
+
+#: includes/admin/templates/pages/author.php:23
+#: includes/admin/templates/pages/author.php:26
+msgid "Author Statistics Summary"
+msgstr "Sammanfattning av författarstatistik"
+
+#: includes/admin/templates/pages/author.php:6
+#: includes/admin/templates/pages/author.php:9
+msgid "Author Statistics Chart"
+msgstr "Diagram över författarstatistik"
+
+#: includes/admin/templates/layout/date.range.php:15
+msgid "Select"
+msgstr "Välj"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:51
+msgid "Select Author"
+msgstr "Välj författare"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:39
+msgid "Author Statistics"
+msgstr "Författarstatistik"
+
+#: includes/admin/templates/pages/author.php:6
+#: includes/admin/templates/pages/author.php:23
+#: includes/admin/templates/pages/author.php:70
+#: includes/admin/templates/pages/category.php:6
+#: includes/admin/templates/pages/category.php:23
+#: includes/admin/templates/pages/category.php:70
+#: includes/admin/templates/pages/pages.php:6
+#: includes/admin/templates/pages/pages.php:24
+#: includes/admin/templates/pages/refer.url.php:19
+#: includes/admin/templates/pages/tag.php:6
+#: includes/admin/templates/pages/tag.php:23
+#: includes/admin/templates/pages/tag.php:70
+msgid "Toggle panel: %s"
+msgstr "Slå på/av panel: %s"
+
+#: includes/defines/country-codes.php:6
+msgctxt "Country"
+msgid "Unknown"
+msgstr "Okänd"
+
+#: includes/class-wp-statistics-search-engine.php:151
+msgctxt "Search Engine"
+msgid "Unknown"
+msgstr "Okänd"
+
+#: includes/class-wp-statistics-user-agent.php:33
+msgctxt "Version"
+msgid "Unknown"
+msgstr "Okänd"
+
+#: includes/class-wp-statistics-user-agent.php:32
+msgctxt "Platform"
+msgid "Unknown"
+msgstr "Okänd"
+
+#: includes/class-wp-statistics-user-agent.php:31
+msgctxt "Browser"
+msgid "Unknown"
+msgstr "Okänd"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:230
+msgid "More Details"
+msgstr "Mer detaljer"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:231
+msgid "Reload"
+msgstr "Ladda om"
+
+#. Plugin URI of the plugin
+msgid "https://wp-statistics.com/"
+msgstr "https://wp-statistics.com/"
+
+#: includes/class-wp-statistics-geoip.php:373
+msgid "GeoIP update on"
+msgstr "Uppdatering av GeoIP pågår"
+
+#: includes/class-wp-statistics-geoip.php:353
+msgid "GeoIP Database updated successfully!"
+msgstr "Databasen för GeoIP har uppdaterats!"
+
+#: includes/class-wp-statistics-geoip.php:338
+msgid "Error could not open destination GeoIP database for writing %s"
+msgstr "Fel, kunde inte öppna destinationsdatabas för GeoIP för att skriva %s"
+
+#: includes/class-wp-statistics-geoip.php:329
+msgid "Error could not open downloaded GeoIP database for reading: %s"
+msgstr "Fel, kunde inte öppna hämtad databas för GeoIP för läsning: %s"
+
+#: includes/class-wp-statistics-geoip.php:314
+msgid "Error downloading GeoIP database from: %s - %s"
+msgstr "Fel vid hämtning av databasen för GeoIP från:%s - %s"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:16
+#: includes/admin/pages/class-wp-statistics-admin-page-settings.php:19
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte behörighet för åtkomst till den här sidan."
+
+#: includes/class-wp-statistics-admin-bar.php:74
+msgid "View Stats"
+msgstr "Visa statistik"
+
+#: includes/admin/class-wp-statistics-admin-network.php:51
+msgid "Options"
+msgstr "Alternativ"
+
+#: includes/admin/class-wp-statistics-admin-network.php:50
+msgid "Site"
+msgstr "Webbplats"
+
+#: includes/admin/class-wp-statistics-admin-network.php:71
+#: includes/class-wp-statistics-menus.php:285
+msgid "Optimization"
+msgstr "Optimering"
+
+#: includes/admin/class-wp-statistics-admin-network.php:69
+#: includes/admin/pages/class-wp-statistics-admin-page-top-visitors-today.php:32
+#: includes/class-wp-statistics-menus.php:271
+msgid "Top Visitors Today"
+msgstr "Besökartopp idag"
+
+#: includes/admin/class-wp-statistics-admin-network.php:63
+#: includes/class-wp-statistics-menus.php:208
+msgid "Search Words"
+msgstr "Sökord"
+
+#: includes/admin/class-wp-statistics-admin-network.php:62
+#: includes/class-wp-statistics-menus.php:201
+msgid "Referrers"
+msgstr "Länkreferenser"
+
+#: includes/admin/class-wp-statistics-admin-network.php:61
+#: includes/class-wp-statistics-menus.php:187
+msgid "Online"
+msgstr "Online"
+
+#: includes/admin/class-wp-statistics-admin-network.php:29
+#: includes/admin/class-wp-statistics-admin-network.php:59
+#: includes/class-wp-statistics-menus.php:174
+msgid "Overview"
+msgstr "Översikt"
+
+#: includes/admin/class-wp-statistics-admin-post.php:137
+msgid "WP Statistics - Hits"
+msgstr "WP Statistics - träffar"
+
+#: includes/class-wp-statistics-install.php:318
+msgid "Rate this plugin"
+msgstr "Betygsätt detta tillägg"
+
+#: includes/class-wp-statistics-install.php:318
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "Klicka här för att betygsätta och recensera detta tillägg hos WordPress.org"
+
+#: includes/class-wp-statistics-install.php:316
+msgid "Visit WordPress.org page"
+msgstr "Besök sidan WordPress.org"
+
+#: includes/class-wp-statistics-install.php:316
+msgid "Click here to visit the plugin on WordPress.org"
+msgstr "Klicka här för att besöka tillägget hos WordPress.org"
+
+#: includes/admin/class-wp-statistics-admin-network.php:72
+#: includes/class-wp-statistics-install.php:299
+#: includes/class-wp-statistics-menus.php:292
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:119
+msgid ","
+msgstr ","
+
+#: includes/admin/class-wp-statistics-admin-notices.php:119
+msgid "The following features are disabled, please go to %ssettings page%s and enable them: %s"
+msgstr "Följande funktioner är inaktiverade, gå till %sinställningssidan%s och aktivera dem: %s"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:115
+msgid "visitor tracking"
+msgstr "spårning av besökare"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:110
+msgid "hit tracking"
+msgstr "spårning av träff"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:105
+msgid "online user tracking"
+msgstr "spårning av uppkopplade användare "
+
+#. Plugin Name of the plugin
+msgid "WP Statistics"
+msgstr "WP Statistics"
+
+#: includes/class-wp-statistics-widget.php:312
+msgid "Select type of search engine"
+msgstr "Välj sökmotor"
+
+#: includes/class-wp-statistics-widget.php:259
+msgid "Items"
+msgstr "Enheter"
+
+#: includes/class-wp-statistics-widget.php:254
+msgid "Name"
+msgstr "Namn"
+
+#: includes/class-wp-statistics-widget.php:153
+#: includes/class-wp-statistics-widget.php:346
+msgid "Total Users"
+msgstr "Totalt antal användare"
+
+#: includes/class-wp-statistics-widget.php:146
+#: includes/class-wp-statistics-widget.php:342
+msgid "Total Spams"
+msgstr "Totalt antal spammar"
+
+#: includes/class-wp-statistics-widget.php:139
+#: includes/class-wp-statistics-widget.php:338
+msgid "Total Comments"
+msgstr "Totalt antal kommentarer"
+
+#: includes/class-wp-statistics-widget.php:132
+#: includes/class-wp-statistics-widget.php:334
+msgid "Total Pages"
+msgstr "Totalt antal sidor"
+
+#: includes/class-wp-statistics-widget.php:125
+#: includes/class-wp-statistics-widget.php:330
+msgid "Total Posts"
+msgstr "Totalt antal inlägg"
+
+#: includes/class-wp-statistics-widget.php:111
+#: includes/class-wp-statistics-widget.php:303
+msgid "Total Page Views"
+msgstr "Totalt antal sidvisningar"
+
+#: includes/class-wp-statistics-widget.php:16
+msgid "Show site stats in sidebar."
+msgstr "Visa webbplatsstatistik i sidopanel."
+
+#: includes/admin/class-wp-statistics-admin-network.php:26
+#: includes/class-wp-statistics-menus.php:167
+#: includes/class-wp-statistics-widget.php:15
+msgid "Statistics"
+msgstr "Statistik"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:66
+#: includes/class-wp-statistics-shortcode.php:221
+msgid "The post/page ID to get page statistics on."
+msgstr "ID för inlägg/sida att hämta sidstatistik för."
+
+#: includes/class-wp-statistics-shortcode.php:218
+msgid "Post/Page ID"
+msgstr "ID för inlägg/sida"
+
+#: includes/class-wp-statistics-shortcode.php:214
+msgid "International"
+msgstr "Internationell"
+
+#: includes/class-wp-statistics-shortcode.php:213
+msgid "English"
+msgstr "Engelska"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:64
+#: includes/class-wp-statistics-shortcode.php:206
+msgid "The format to display numbers in: i18n, english, none."
+msgstr "Formatet för att visa värden: i18n, engelska, inget."
+
+#: includes/class-wp-statistics-shortcode.php:203
+msgid "Number Format"
+msgstr "Sifferformat"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:62
+#: includes/class-wp-statistics-shortcode.php:199
+msgid "The search provider to get statistics on."
+msgstr "Sökleverantören att få statistik för."
+
+#: includes/class-wp-statistics-shortcode.php:196
+msgid "Search Provider"
+msgstr "Sökleverantör"
+
+#: includes/class-wp-statistics-shortcode.php:189
+msgid "The time frame to get the statistic for, strtotime() (http://php.net/manual/en/datetime.formats.php) will be used to calculate it. Use \"total\" to get all recorded dates."
+msgstr "Tidsramen för statistikinsamlingen, strtotime() (http://php.net/manual/en/datetime.formats.php) används för beräkningen. Ange \"total\" för att få med alla insamlade dagar."
+
+#: includes/admin/templates/layout/date.range.php:30
+#: includes/class-wp-statistics-shortcode.php:186
+msgid "Time Frame"
+msgstr "Tidsram"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:49
+#: includes/class-wp-statistics-shortcode.php:181
+#: includes/class-wp-statistics-widget.php:181
+#: includes/class-wp-statistics-widget.php:362
+msgid "Last Post Date"
+msgstr "Senaste inläggsdatum"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:48
+#: includes/class-wp-statistics-shortcode.php:180
+#: includes/class-wp-statistics-widget.php:174
+#: includes/class-wp-statistics-widget.php:358
+msgid "User Average"
+msgstr "Genomsnittligt antal användare"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:47
+#: includes/class-wp-statistics-shortcode.php:179
+#: includes/class-wp-statistics-widget.php:167
+#: includes/class-wp-statistics-widget.php:354
+msgid "Comment Average"
+msgstr "Genomsnittligt antal kommentarer"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:46
+#: includes/class-wp-statistics-shortcode.php:178
+#: includes/class-wp-statistics-widget.php:160
+#: includes/class-wp-statistics-widget.php:350
+msgid "Post Average"
+msgstr "Genomsnittligt antal inlägg"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:45
+#: includes/class-wp-statistics-shortcode.php:177
+msgid "User Count"
+msgstr "Antal användare"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:44
+#: includes/class-wp-statistics-shortcode.php:176
+msgid "Spam Count"
+msgstr "Antal spam"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:43
+#: includes/class-wp-statistics-shortcode.php:175
+msgid "Comment Count"
+msgstr "Antal kommentarer"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:42
+#: includes/class-wp-statistics-shortcode.php:174
+msgid "Page Count"
+msgstr "Antal sidor"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:41
+#: includes/class-wp-statistics-shortcode.php:173
+msgid "Post Count"
+msgstr "Antal inlägg"
+
+#: includes/admin/class-wp-statistics-admin-network.php:64
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:40
+#: includes/class-wp-statistics-shortcode.php:172
+msgid "Searches"
+msgstr "Sökningar"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:39
+#: includes/class-wp-statistics-shortcode.php:171
+msgid "Page Visits"
+msgstr "Sidbesök"
+
+#: includes/class-wp-statistics-shortcode.php:165
+msgid "Select the statistic you wish to display."
+msgstr "Välj vilken statistik du vill visa."
+
+#: includes/class-wp-statistics-shortcode.php:162
+msgid "Statistic"
+msgstr "Statistik"
+
+#: includes/class-wp-statistics-schedule.php:116
+msgid "Once Every 4 Weeks"
+msgstr "Var fjärde vecka"
+
+#: includes/class-wp-statistics-schedule.php:112
+msgid "Once Every 2 Weeks"
+msgstr "Varannan vecka"
+
+#: includes/class-wp-statistics-schedule.php:108
+msgid "Once Weekly"
+msgstr "Varje vecka"
+
+#: includes/admin/templates/layout/tabs-settings.php:12
+msgid "Maintenance"
+msgstr "Underhåll"
+
+#: includes/admin/templates/layout/tabs-settings.php:11
+msgid "Externals"
+msgstr "Externa"
+
+#: includes/admin/templates/layout/tabs-settings.php:6
+msgid "Notifications"
+msgstr "Meddelanden"
+
+#: includes/admin/templates/layout/tabs-settings.php:3
+msgid "General"
+msgstr "Allmänt"
+
+#: includes/admin/templates/settings/overview-display.php:10
+msgid "The following items are global to all users."
+msgstr "Följande objekt är globala för alla användare."
+
+#: includes/admin/templates/layout/tabs-settings.php:7
+#: includes/admin/templates/settings/overview-display.php:15
+msgid "Dashboard"
+msgstr "Adminpanel"
+
+#: includes/admin/templates/layout/tabs-settings.php:14
+msgid "About"
+msgstr "Om"
+
+#: includes/class-wp-statistics-shortcode.php:212
+msgid "None"
+msgstr "Ingen"
+
+#: includes/admin/templates/settings/notifications.php:166
+#: includes/class-wp-statistics-widget.php:97
+#: includes/class-wp-statistics-widget.php:295
+msgid "Total Visits"
+msgstr "Totalt antal besök"
+
+#: includes/admin/templates/settings/notifications.php:164
+#: includes/class-wp-statistics-widget.php:104
+#: includes/class-wp-statistics-widget.php:299
+msgid "Total Visitors"
+msgstr "Totalt antal besökare"
+
+#: includes/admin/templates/settings/notifications.php:162
+#: includes/class-wp-statistics-admin-bar.php:70
+#: includes/class-wp-statistics-widget.php:62
+#: includes/class-wp-statistics-widget.php:275
+msgid "Yesterday's Visits"
+msgstr "Gårdagens besök"
+
+#: includes/admin/templates/settings/notifications.php:160
+#: includes/class-wp-statistics-admin-bar.php:66
+#: includes/class-wp-statistics-widget.php:69
+#: includes/class-wp-statistics-widget.php:279
+msgid "Yesterday's Visitors"
+msgstr "Gårdagens besökare"
+
+#: includes/admin/templates/settings/wp-cli.php:39
+msgid "User Online:"
+msgstr "Användare online:"
+
+#: includes/admin/templates/settings/notifications.php:149
+msgid "Enter the contents of the report."
+msgstr "Ange innehållet för rapporten."
+
+#: includes/admin/templates/settings/notifications.php:137
+msgid "WordPress SMS"
+msgstr "WordPress SMS"
+
+#: includes/admin/templates/settings/notifications.php:137
+msgid "Note: To send SMS text messages please install the %s plugin."
+msgstr "Obs! För att skicka via SMS behöver tillägget %s vara installerat."
+
+#: includes/admin/templates/settings/notifications.php:135
+msgid "Select delivery method for statistical report."
+msgstr "Välj hur statistikrapporterna ska skickas."
+
+#: includes/admin/templates/settings/notifications.php:131
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/admin/templates/pages/online.php:45
+#: includes/admin/templates/settings/notifications.php:129
+msgid "Email"
+msgstr "E-post"
+
+#: includes/admin/templates/settings/notifications.php:123
+msgid "Send reports via:"
+msgstr "Skicka rapporter via:"
+
+#: includes/admin/templates/settings/notifications.php:116
+msgid "Select how often to receive statistical report."
+msgstr "Välj hur ofta du vill ha statistikrapporter."
+
+#: includes/admin/templates/settings/notifications.php:88
+msgid "Schedule:"
+msgstr "Schema:"
+
+#: includes/admin/templates/settings/notifications.php:66
+#: includes/class-wp-statistics-schedule.php:229
+msgid "Statistical reporting"
+msgstr "Statistikrapportering"
+
+#: includes/admin/templates/settings/notifications.php:33
+msgid "Update Reports"
+msgstr "Uppdatera rapporter"
+
+#: includes/admin/templates/settings/notifications.php:15
+msgid "Email Addresses:"
+msgstr "E-postadresser:"
+
+#: includes/admin/templates/settings/notifications.php:10
+msgid "Common Report Options"
+msgstr "Gemensamma rapportalternativ"
+
+#: includes/admin/templates/settings/maintenance.php:59
+msgid "A WP Cron job will be run daily to purge any users statistics data where the user has more than the defined number of hits in a day (aka they are probably a bot)."
+msgstr "Ett WP Cron-jobb kommer att köras varje dag för att radera besökares statstik-data där besökaren har fler än angivet antal träffar på en dag (vilket antagligen innebär att besökaren är en robot)."
+
+#: includes/admin/templates/settings/maintenance.php:47
+msgid "Purge High Hit Count Visitors Daily"
+msgstr "Radera varje dag besökare med många träffar"
+
+#: includes/admin/templates/optimization/purging.php:235
+#: includes/admin/templates/settings/maintenance.php:36
+msgid "Days"
+msgstr "Dagar"
+
+#: includes/admin/templates/settings/maintenance.php:31
+msgid "Purge Data Older Than:"
+msgstr "Rensa data äldre än:"
+
+#: includes/admin/templates/settings/maintenance.php:25
+msgid "A WP Cron job will be run daily to purge any data older than a set number of days."
+msgstr "Ett WP cronjobb kommer att köras varje dag för att rensa data som är äldre än angivet antal dagar."
+
+#: includes/admin/templates/settings/maintenance.php:19
+#: includes/admin/templates/settings/maintenance.php:53
+msgid "Enabled:"
+msgstr "Aktiverat:"
+
+#: includes/admin/templates/settings/maintenance.php:14
+msgid "Purge Old Data Daily"
+msgstr "Rensa gammal data dagligen"
+
+#: includes/admin/templates/settings/maintenance.php:5
+msgid "This will permanently delete data from the database each day, are you sure you want to enable this option?"
+msgstr "Denna funktion tar dagligen bort data från databasen permanent, är du säker på att du vill det?"
+
+#: includes/admin/templates/settings/general.php:364
+msgid "Add a total line to charts with multiple values, like the search engine referrals"
+msgstr "Lägger till en totalvärdesrad till diagram med flera värden, som exempelvis sökmotorlänkningar"
+
+#: includes/admin/templates/settings/general.php:354
+msgid "Charts"
+msgstr "Diagram"
+
+#: includes/admin/templates/settings/general.php:343
+msgid "Disable %s from data collection and reporting."
+msgstr "Ta bort %s från datainsamling och rapportering."
+
+#: includes/admin/templates/settings/general.php:184
+#: includes/admin/templates/settings/general.php:195
+#: includes/admin/templates/settings/general.php:341
+#: includes/admin/templates/settings/overview-display.php:25
+#: includes/admin/templates/settings/overview-display.php:42
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: includes/admin/templates/settings/general.php:324
+msgid "Disabling all search engines is not allowed. Doing so will result in all search engines being active."
+msgstr "Att inaktivera alla sökmotorer är inte tillåtet. Att göra det kommer att resultera i att alla sökmotorer är aktiva."
+
+#: includes/admin/templates/settings/general.php:318
+msgid "If a search engine is identified as the referrer but it does not include the search query this option will substitute the page title in quotes preceded by \"~:\" as the search query to help identify what the user may have been searching for."
+msgstr "Om länkningen utförts av en sökmotor utan att sökbegreppet finns med sätter det här alternativet in sidtiteln inom citationstecken föregått av \"~:\" som sökbegrepp, för att underlätta identifiering av användarens sökning."
+
+#: includes/admin/templates/settings/general.php:307
+#: includes/class-wp-statistics-menus.php:215
+msgid "Search Engines"
+msgstr "Sökmotorer"
+
+#: includes/admin/templates/optimization/resources.php:90
+#: includes/admin/templates/optimization/resources.php:107
+#: includes/admin/templates/settings/general.php:283
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/templates/optimization/resources.php:92
+#: includes/admin/templates/optimization/resources.php:109
+#: includes/admin/templates/settings/general.php:282
+msgid "No"
+msgstr "Nej"
+
+#: includes/admin/templates/settings/general.php:277
+msgid "Show Stats in Menu Bar:"
+msgstr "Visa statistik i menylist:"
+
+#: includes/admin/templates/settings/general.php:272
+msgid "Miscellaneous"
+msgstr "Diverse"
+
+#: includes/admin/templates/settings/general.php:149
+msgid "Track All Pages:"
+msgstr "Spåra alla sidor:"
+
+#: includes/admin/class-wp-statistics-admin-network.php:65
+#: includes/class-wp-statistics-menus.php:222
+msgid "Pages"
+msgstr "Sidor"
+
+#: includes/admin/templates/settings/general.php:119
+msgid "Coefficient per Visitor:"
+msgstr "Koefficient per besökare:"
+
+#: includes/admin/templates/settings/privacy.php:36
+msgid "Store Entire User Agent String:"
+msgstr "Lagra hela användaragentsträngen:"
+
+#: includes/admin/templates/settings/general.php:43
+msgid "Record All Users:"
+msgstr "Registrera alla användare:"
+
+#: includes/admin/templates/settings/general.php:34
+msgid "Seconds"
+msgstr "Sekunder"
+
+#: includes/admin/templates/settings/general.php:28
+msgid "Check for Online Users Every:"
+msgstr "Kolla efter användare online varje:"
+
+#: includes/admin/templates/settings/general.php:154
+msgid "Enable or disable this feature"
+msgstr "Aktivera eller inaktivera denna funktion"
+
+#: includes/admin/templates/settings/externals.php:136
+msgid "PHP safe mode detected! GeoIP collection is not supported with PHP's safe mode enabled!"
+msgstr "PHP körs i säkert läge! GeoIP-insamling stöds inte när säkert läge är aktiverat i PHP!"
+
+#: includes/admin/templates/settings/externals.php:130
+msgid "GeoIP collection requires the BC Math PHP extension and it is not loaded on your version of PHP!"
+msgstr "GeoIP-insamling kräver PHP-utökningen BC Math som inte laddas i din version av PHP!"
+
+#: includes/admin/templates/settings/externals.php:124
+msgid "GeoIP collection requires the cURL PHP extension and it is not loaded on your version of PHP!"
+msgstr "GeoIP-insamling kräver PHP-utökningen cURL som inte laddas i din version av PHP!"
+
+#: includes/admin/templates/settings/externals.php:120
+msgid "GeoIP collection is disabled due to the following reasons:"
+msgstr "GeoIP-insamling är inaktiverat på grund av följande skäl:"
+
+#: includes/admin/templates/settings/externals.php:106
+msgid "Country Code for Private IP Addresses:"
+msgstr "Landskod för privata IP-adresser:"
+
+#: includes/admin/templates/settings/externals.php:88
+msgid "This option will also download the database if the local filesize is less than 1k (which usually means the stub that comes with the plugin is still in place)."
+msgstr "Detta alternativ hämtar även databasen när den lokala storleken är mindre än 1k (vilket i regel betyder att minidatabasen som bifogats tillägget finns kvar)."
+
+#: includes/admin/templates/settings/externals.php:87
+msgid "Download of the GeoIP database will be scheduled for 2 days after the first Tuesday of the month."
+msgstr "Hämtning av databasen med GeoIP schemaläggs till 2 dagar efter första tisdagen i månaden."
+
+#: includes/admin/templates/settings/externals.php:63
+#: includes/admin/templates/settings/externals.php:199
+msgid "Next update will be"
+msgstr "Nästa uppdatering kommer att vara"
+
+#: includes/admin/templates/add-ons.php:35
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/admin/templates/settings/externals.php:18
+msgid "GeoIP Collection:"
+msgstr "GeoIP-insamling:"
+
+#: includes/admin/templates/settings/externals.php:5
+msgid "GeoIP Settings"
+msgstr "GeoIP-inställningar"
+
+#: includes/admin/templates/settings/exclusions.php:205
+msgid "Exclude any URL that returns a \"404 - Not Found\" message."
+msgstr "Exkludera alla URL:er som returnerar meddelandet ”404 - Inte hittat”."
+
+#: includes/admin/templates/settings/exclusions.php:202
+msgid "Excluded 404 Pages:"
+msgstr "Exkluderade 404-sidor:"
+
+#: includes/admin/templates/settings/exclusions.php:198
+msgid "Exclude the RSS feeds for registering as a hit."
+msgstr "Exkludera RSS-flödena för registrering som en träff."
+
+#: includes/admin/templates/settings/exclusions.php:195
+msgid "Excluded RSS Feeds:"
+msgstr "Exkluderade RSS-flöden:"
+
+#: includes/admin/templates/settings/exclusions.php:191
+msgid "Exclude the login page for registering as a hit."
+msgstr "Exkludera inloggningssidan från att registreras som en träff."
+
+#: includes/admin/templates/settings/exclusions.php:188
+msgid "Excluded Login Page:"
+msgstr "Exkluderad inloggningssida:"
+
+#: includes/admin/templates/settings/exclusions.php:184
+msgid "Site URL Exclusions"
+msgstr "Exkluderade webbplats-URL:er"
+
+#: includes/admin/templates/settings/exclusions.php:166
+msgid "Host Exclusions"
+msgstr "Exkludering av servrar"
+
+#: includes/admin/templates/settings/exclusions.php:141
+msgid "GeoIP Exclusions"
+msgstr "Uteslutningar för GeoIP"
+
+#: includes/admin/templates/settings/exclusions.php:131
+msgid "Treat any visitor with corrupt browser info (missing IP address or empty user agent string) as a robot."
+msgstr "Betrakta alla besökare med förvrängd webbläsarinformation (såsom saknad IP-adress eller utebliven användaragentsträng) som en robot."
+
+#: includes/admin/templates/settings/exclusions.php:127
+msgid "Treat Corrupt Browser Info as a Bot:"
+msgstr "Behandla korrupt webbläsarinformation som en robot:"
+
+#: includes/admin/templates/settings/exclusions.php:121
+msgid "Create a new Honey Pot page"
+msgstr "Skapa en ny Honey Pot-sida"
+
+#: includes/admin/templates/settings/exclusions.php:92
+msgid "Excluded IP Address List:"
+msgstr "Lista med exkluderade IP-adresser:"
+
+#: includes/admin/templates/settings/exclusions.php:83
+msgid "Robot Visit Threshold:"
+msgstr "Tröskelvärde för besökande robotar:"
+
+#: includes/admin/templates/settings/exclusions.php:67
+msgid "Reset to Default"
+msgstr "Återställ till standard"
+
+#: includes/admin/templates/settings/exclusions.php:55
+msgid "Robot List:"
+msgstr "Robotlista:"
+
+#: includes/admin/templates/settings/exclusions.php:51
+msgid "IP/Robot Exclusions"
+msgstr "IP/robot-exkluderingar"
+
+#: includes/admin/templates/settings/exclusions.php:40
+msgid "Exclude %s role from data collection."
+msgstr "Exkludera roll %s från datainsamling."
+
+#: includes/admin/templates/settings/exclusions.php:39
+#: includes/admin/templates/settings/exclusions.php:190
+#: includes/admin/templates/settings/exclusions.php:197
+#: includes/admin/templates/settings/exclusions.php:204
+msgid "Exclude"
+msgstr "Exkludera"
+
+#: includes/admin/templates/settings/exclusions.php:23
+msgid "Exclude User Roles"
+msgstr "Exkludera användarroller"
+
+#: includes/admin/templates/settings/exclusions.php:12
+#: includes/admin/templates/settings/exclusions.php:76
+#: includes/admin/templates/settings/exclusions.php:111
+#: includes/admin/templates/settings/exclusions.php:130
+#: includes/admin/templates/settings/externals.php:24
+#: includes/admin/templates/settings/externals.php:43
+#: includes/admin/templates/settings/externals.php:60
+#: includes/admin/templates/settings/externals.php:99
+#: includes/admin/templates/settings/externals.php:169
+#: includes/admin/templates/settings/externals.php:196
+#: includes/admin/templates/settings/general.php:21
+#: includes/admin/templates/settings/general.php:48
+#: includes/admin/templates/settings/general.php:70
+#: includes/admin/templates/settings/general.php:90
+#: includes/admin/templates/settings/general.php:101
+#: includes/admin/templates/settings/general.php:112
+#: includes/admin/templates/settings/general.php:142
+#: includes/admin/templates/settings/general.php:153
+#: includes/admin/templates/settings/general.php:169
+#: includes/admin/templates/settings/general.php:207
+#: includes/admin/templates/settings/general.php:219
+#: includes/admin/templates/settings/general.php:260
+#: includes/admin/templates/settings/general.php:296
+#: includes/admin/templates/settings/general.php:317
+#: includes/admin/templates/settings/general.php:363
+#: includes/admin/templates/settings/maintenance.php:24
+#: includes/admin/templates/settings/maintenance.php:58
+#: includes/admin/templates/settings/notifications.php:43
+#: includes/admin/templates/settings/notifications.php:55
+#: includes/admin/templates/settings/notifications.php:76
+#: includes/admin/templates/settings/notifications.php:190
+#: includes/admin/templates/settings/privacy.php:18
+#: includes/admin/templates/settings/privacy.php:29
+#: includes/admin/templates/settings/privacy.php:41
+#: includes/admin/templates/settings/wp-cli.php:13
+#: includes/admin/templates/settings/wp-cli.php:31
+#: includes/admin/templates/settings/wp-cli.php:43
+#: includes/admin/templates/settings/wp-cli.php:54
+msgid "Enable"
+msgstr "Aktivera"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-settings.php:331
+msgid "WP Statistics Honey Pot Page"
+msgstr "”Honey Pot”-sida från WP Statistics"
+
+#: includes/admin/templates/settings/access-level.php:79
+#: includes/admin/templates/settings/exclusions.php:220
+#: includes/admin/templates/settings/externals.php:182
+#: includes/admin/templates/settings/externals.php:219
+#: includes/admin/templates/settings/general.php:372
+#: includes/admin/templates/settings/maintenance.php:78
+#: includes/admin/templates/settings/notifications.php:198
+#: includes/admin/templates/settings/overview-display.php:54
+#: includes/admin/templates/settings/privacy.php:49
+#: includes/admin/templates/settings/reset.php:23
+#: includes/admin/templates/settings/visitor-ip.php:154
+#: includes/admin/templates/settings/wp-cli.php:64
+msgid "Update"
+msgstr "Uppdatera"
+
+#: includes/admin/templates/settings/access-level.php:69
+msgid "Hint: manage_network = Super Admin Network, manage_options = Administrator, edit_others_posts = Editor, publish_posts = Author, edit_posts = Contributor, read = Everyone."
+msgstr "Tips: manage_network = Nätverksadministratör, manage_options = Administratör, edit_others_posts = Redaktör, publish_posts = Författare, edit_posts = Bidragsgivare, read = Alla."
+
+#: includes/admin/templates/settings/access-level.php:59
+msgid "Required User Level to Manage WP Statistics:"
+msgstr "Användarnivå som krävs för att hantera WP Statistics:"
+
+#: includes/admin/templates/settings/access-level.php:39
+msgid "Required User Level to View WP Statistics:"
+msgstr "Användarnivå som krävs för att visa WP Statistics:"
+
+#: includes/admin/templates/settings/about.php:155
+msgid "Still not having any luck?"
+msgstr "Går det fortfarande åt pipan?"
+
+#: includes/admin/templates/settings/about.php:152
+msgid "Have you checked your PHP and web server error logs?"
+msgstr "Har du kollat felloggarna för PHP och webbservern?"
+
+#: includes/admin/templates/settings/about.php:142
+msgid "Do you have all the required PHP extensions installed?"
+msgstr "Har du alla nödvändiga PHP-utökningar installerade?"
+
+#: includes/admin/templates/settings/about.php:141
+msgid "Have you double checked the plugin settings?"
+msgstr "Har du dubbelkollat tilläggets inställningar?"
+
+#: includes/admin/templates/settings/about.php:140
+msgid "Have you tried using the default WordPress theme?"
+msgstr "Har du försökt använda standardtemat från WordPress?"
+
+#: includes/admin/templates/settings/about.php:136
+msgid "Have you tried disabling any other plugins you may have installed?"
+msgstr "Har du provat att inaktivera något annat installerat tillägg?"
+
+#: includes/admin/templates/settings/about.php:135
+msgid "How's your memory_limit in php.ini?"
+msgstr "Vilken minnesbegränsning anges i php.ini?"
+
+#: includes/admin/templates/settings/about.php:132
+msgid "And a few things to double-check:"
+msgstr "Och ett par saker att dubbelkolla:"
+
+#: includes/admin/templates/settings/about.php:129
+msgid "Make sure you have access to your PHP error logs."
+msgstr "Kontrollera att du har åtkomst till felloggar för PHP."
+
+#: includes/admin/templates/settings/about.php:125
+msgid "Have you search the Internet for any error messages you are receiving?"
+msgstr "Har du sökt på internet efter eventuella felmeddelanden du fått?"
+
+#: includes/admin/templates/settings/about.php:109
+msgid "FAQs"
+msgstr "Vanliga frågor"
+
+#: includes/admin/templates/settings/about.php:100
+msgid "We're sorry you're having problem with WP Statistics and we're happy to help out. Here are a few things to do before contacting us:"
+msgstr "Vi beklagar att du har problem med WP Statistics och vi hjälper dig gärna. Här är några saker att göra innan du kontaktar oss:"
+
+#: includes/admin/templates/settings/about.php:95
+msgid "Support"
+msgstr "Support"
+
+#: includes/admin/templates/settings/about.php:80
+msgid "Translations"
+msgstr "Översättningar"
+
+#: includes/admin/templates/settings/about.php:64
+msgid "Rate and Review at WordPress.org"
+msgstr "Betyg och recensioner hos WordPress.org"
+
+#: includes/admin/templates/settings/about.php:54
+msgid "Come visit our great new %swebsite%s and keep up to date on the latest news about WP Statistics."
+msgstr "Besök vår nya fantastiska %shemsida%s och håll dig uppdaterad om de senaste nyheterna om WP Statistics."
+
+#: includes/admin/templates/settings/about.php:49
+msgid "Visit Us Online"
+msgstr "Besök oss online"
+
+#: includes/admin/templates/settings/about.php:39
+msgid "Feel like showing us how much you enjoy WP Statistics? Drop by our %sdonation%s page and show us some love!"
+msgstr "Känner du för att visa oss hur mycket du tycker om WP Statistics? Kom förbi våran %sdonation%s-sida och visa oss lite kärlek!"
+
+#: includes/admin/templates/settings/about.php:34
+#: includes/class-wp-statistics-menus.php:306
+#: includes/class-wp-statistics-menus.php:307
+msgid "Donate"
+msgstr "Donera"
+
+#: includes/admin/templates/settings/about.php:14
+msgid "WP Statistics V%s"
+msgstr "WP Statistics V%s"
+
+#: includes/admin/templates/layout/tabs-optimization.php:7
+msgid "Historical"
+msgstr "Historik"
+
+#: includes/admin/templates/layout/tabs-optimization.php:6
+msgid "Updates"
+msgstr "Uppdateringar"
+
+#: includes/admin/templates/layout/tabs-optimization.php:5
+msgid "Database"
+msgstr "Databas"
+
+#: includes/admin/templates/layout/tabs-optimization.php:4
+msgid "Purging"
+msgstr "Tömmer"
+
+#: includes/admin/templates/layout/tabs-optimization.php:2
+msgid "Resources/Information"
+msgstr "Resurser/information"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:61
+msgid "Install routine complete."
+msgstr "Installationen är klar."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:49
+msgid "IP Addresses replaced with hash values."
+msgstr "IP-adresserna har ersatts med hashade värden."
+
+#: includes/admin/templates/optimization/updates.php:44
+msgid "Replace IP addresses in the database with hash values, you will not be able to recover the IP addresses in the future to populate location information afterwards and this may take a while"
+msgstr "Byter IP-adresserna i databasen till hashade värden, det blir inte möjligt att återställa IP-adresserna framöver för att återskapa platsinformationen och bytet kommer att ta en stund"
+
+#: includes/admin/templates/optimization/updates.php:39
+#: includes/admin/templates/settings/privacy.php:25
+msgid "Hash IP Addresses:"
+msgstr "Hash-värden för IP-adresser:"
+
+#: includes/admin/templates/optimization/updates.php:34
+msgid "IP Addresses"
+msgstr "IP-adresser"
+
+#: includes/admin/templates/optimization/updates.php:28
+msgid "Updates any unknown location data in the database, this may take a while"
+msgstr "Uppdaterar alla okända lokaliseringsuppgifter i databasen, vilket kan ta en stund"
+
+#: includes/admin/templates/optimization/updates.php:18
+msgid "GeoIP Options"
+msgstr "Alternativ för GeoIP"
+
+#: includes/admin/templates/optimization/updates.php:4
+msgid "This will replace all IP addresses in the database with hash values and cannot be undo, are you sure?"
+msgstr "Detta ersätter alla IP-adresser i databasen med hash-värden och kommer inte att kunna inte återställas, är du säker på att du vill det?"
+
+#: includes/admin/templates/optimization/resources.php:297
+msgid "The detected client platform."
+msgstr "Avläst klientplattform."
+
+#: includes/admin/templates/optimization/resources.php:286
+msgid "The detected client browser version."
+msgstr "Avläst version av klientens webbläsare."
+
+#: includes/admin/templates/optimization/resources.php:275
+msgid "The detected client browser."
+msgstr "Detekterad klientwebbläsaren."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:254
+#: includes/admin/meta-box/wp-statistics-meta-box-browsers.php:162
+#: includes/admin/templates/optimization/resources.php:267
+#: includes/admin/templates/pages/online.php:11
+#: includes/admin/templates/pages/refer.url.php:31
+#: includes/admin/templates/pages/top-visitors.php:18
+#: includes/admin/templates/pages/visitors.php:25
+#: includes/admin/templates/pages/words.php:26
+msgid "Browser"
+msgstr "Webbläsare"
+
+#: includes/admin/templates/optimization/resources.php:261
+msgid "The client user agent string."
+msgstr "Klientens användaragentsträng."
+
+#: includes/admin/templates/optimization/resources.php:255
+msgid "User Agent"
+msgstr "Användaragent"
+
+#: includes/admin/templates/optimization/resources.php:249
+msgid "The client IP address."
+msgstr "Användarens IP-adress."
+
+#: includes/admin/templates/optimization/resources.php:244
+msgid "Client IP"
+msgstr "Klientens IP"
+
+#: includes/admin/templates/optimization/resources.php:239
+msgid "Client Info"
+msgstr "Klientinformation"
+
+#: includes/admin/templates/optimization/resources.php:228
+msgid "The file size and date of the GeoIP database."
+msgstr "Filstorlek och datum för GeoIP-databasen."
+
+#: includes/admin/templates/optimization/resources.php:223
+msgid ", created on "
+msgstr ", skapad den "
+
+#: includes/admin/templates/optimization/resources.php:221
+msgid "Database file does not exist."
+msgstr "Databasfilen saknas."
+
+#: includes/admin/templates/optimization/resources.php:212
+msgid "GeoIP Database"
+msgstr "Databasen för GeoIP"
+
+#: includes/admin/templates/optimization/resources.php:207
+msgid "File Info"
+msgstr "Filinformation"
+
+#: includes/admin/templates/add-ons.php:41
+#: includes/admin/templates/optimization/resources.php:159
+#: includes/admin/templates/optimization/resources.php:176
+#: includes/admin/templates/optimization/resources.php:193
+msgid "Not installed"
+msgstr "Ej installerad"
+
+#: includes/admin/templates/optimization/resources.php:157
+#: includes/admin/templates/optimization/resources.php:174
+#: includes/admin/templates/optimization/resources.php:191
+msgid "Installed"
+msgstr "Installerad"
+
+#: includes/admin/templates/optimization/resources.php:143
+msgid "The PHP cURL Extension version you are running. cURL is required for the GeoIP code, if it is not installed GeoIP will be disabled."
+msgstr "Version av PHP cURL-utökningen du använder. cURL krävs för GeoIP-koden, om den inte är installerad kommer GeoIP att inaktiveras."
+
+#: includes/admin/templates/optimization/resources.php:140
+msgid "cURL not installed"
+msgstr "cURL inte installerad"
+
+#: includes/admin/templates/optimization/resources.php:132
+msgid "cURL Version"
+msgstr "cURL-version"
+
+#: includes/admin/templates/optimization/resources.php:126
+msgid "The jQuery version you are running."
+msgstr "JQuery-versionen som nu används."
+
+#: includes/admin/templates/optimization/resources.php:118
+msgid "jQuery Version"
+msgstr "jQuery-version"
+
+#: includes/admin/templates/optimization/resources.php:85
+msgid "PHP Safe Mode"
+msgstr "PHP säkert läge"
+
+#: includes/admin/templates/optimization/resources.php:79
+msgid "The PHP version you are running."
+msgstr "Den PHP-version du kör."
+
+#: includes/admin/templates/optimization/resources.php:74
+msgid "PHP Version"
+msgstr "PHP-version"
+
+#: includes/admin/templates/optimization/resources.php:67
+msgid "The WP Statistics version you are running."
+msgstr "Den WP Statistics-version du kör."
+
+#: includes/admin/templates/optimization/resources.php:62
+msgid "WP Statistics Version"
+msgstr "WP Statistics-version"
+
+#: includes/admin/templates/optimization/resources.php:57
+msgid "Version Info"
+msgstr "Versionsinformation"
+
+#: includes/admin/templates/optimization/resources.php:44
+msgid "Number of rows"
+msgstr "Antal rader"
+
+#: includes/admin/templates/optimization/resources.php:40
+msgid "Row"
+msgid_plural "Rows"
+msgstr[0] "Rad"
+msgstr[1] "Rader"
+
+#: includes/admin/templates/optimization/resources.php:36
+msgid "Number of rows in the %s table"
+msgstr "Antal rader i tabellen %s"
+
+#: includes/admin/templates/optimization/resources.php:26
+msgid "The memory limit a script is allowed to consume, set in php.ini."
+msgstr "Den minnesgräns ett skript tillåts att använda, ställ in i php.ini."
+
+#: includes/admin/templates/optimization/resources.php:21
+msgid "PHP Memory Limit"
+msgstr "Minnesgräns för PHP"
+
+#: includes/admin/templates/optimization/resources.php:11
+#: includes/admin/templates/optimization/resources.php:15
+msgid "Memory usage in PHP"
+msgstr "Minnesanvändning för PHP"
+
+#: includes/admin/templates/optimization/resources.php:6
+msgid "Resources"
+msgstr "Resurser"
+
+#: includes/admin/templates/optimization/purging.php:321
+msgid "All visitor data will be lost for this platform type."
+msgstr "All besökardata med denna plattform kommer försvinna."
+
+#: includes/admin/templates/optimization/purging.php:304
+msgid "Delete Platforms:"
+msgstr "Ta bort plattformar:"
+
+#: includes/admin/templates/optimization/purging.php:295
+#: includes/admin/templates/optimization/purging.php:323
+#: includes/admin/templates/optimization/purging.php:340
+msgid "Delete now!"
+msgstr "Ta bort nu!"
+
+#: includes/admin/templates/optimization/purging.php:293
+msgid "All visitor data will be lost for this agent type."
+msgstr "All uppgifter om besökare med denna agent-typ kommer att försvinna."
+
+#: includes/admin/templates/optimization/purging.php:278
+msgid "Delete Agents:"
+msgstr "Ta bort agenter:"
+
+#: includes/admin/templates/optimization/purging.php:273
+msgid "Delete User Agent Types"
+msgstr "Ta bort användaragent-typer"
+
+#: includes/admin/templates/optimization/purging.php:248
+msgid "Purge visitors with more than:"
+msgstr "Rensa besökare med mer än:"
+
+#: includes/admin/templates/optimization/purging.php:239
+#: includes/admin/templates/optimization/purging.php:260
+msgid "Purge now!"
+msgstr "Töm nu!"
+
+#: includes/admin/templates/optimization/purging.php:230
+msgid "Purge records older than:"
+msgstr "Töm dataposter äldre än:"
+
+#: includes/admin/templates/optimization/purging.php:221
+msgid "Clear now!"
+msgstr "Rensa nu!"
+
+#: includes/admin/templates/optimization/purging.php:220
+msgid "All data table will be lost."
+msgstr "All data kommer att förloras."
+
+#: includes/admin/templates/optimization/purging.php:206
+msgid "Empty Table:"
+msgstr "Töm tabell:"
+
+#: includes/admin/templates/optimization/purging.php:201
+msgid "Data"
+msgstr "Data"
+
+#: includes/admin/templates/optimization/purging.php:10
+#: includes/admin/templates/optimization/purging.php:42
+#: includes/admin/templates/optimization/purging.php:73
+#: includes/admin/templates/optimization/purging.php:104
+#: includes/admin/templates/optimization/purging.php:137
+#: includes/admin/templates/optimization/purging.php:170
+msgid "Are you sure?"
+msgstr "Är du säker på det?"
+
+#: includes/admin/templates/optimization/historical.php:41
+msgid "Number of historical number of visits to the site (current value is %s)."
+msgstr "Antal webbplatsbesök i historiken (nuvarande antal är %s)."
+
+#: includes/admin/templates/optimization/historical.php:31
+msgid "Number of historical number of visitors to the site (current value is %s)."
+msgstr "Antal webbplatsbesökare i historiken (nuvarande antal är %s)."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:233
+#: includes/admin/class-wp-statistics-admin-network.php:66
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:32
+#: includes/admin/templates/optimization/historical.php:27
+#: includes/admin/templates/pages/hits.php:25
+#: includes/admin/templates/settings/general.php:81
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:38
+#: includes/class-wp-statistics-menus.php:194
+#: includes/class-wp-statistics-shortcode.php:170
+msgid "Visitors"
+msgstr "Besökare"
+
+#: includes/admin/templates/optimization/historical.php:21
+msgid "Note: As you have just purged the database you must reload this page for these numbers to be correct."
+msgstr "Observera: Eftersom du nyligen rensade databasen måste du ladda om denna sida för att dessa värden ska bli korrekta."
+
+#: includes/admin/templates/optimization/historical.php:16
+msgid "Historical Values"
+msgstr "Historiska värden"
+
+#: includes/admin/templates/optimization/export.php:61
+msgid "Start Now!"
+msgstr "Börja nu!"
+
+#: includes/admin/templates/optimization/export.php:59
+msgid "Include a header row as the first line of the exported file."
+msgstr "Placerar en rubrikrad överst i den skapade datafilen."
+
+#: includes/admin/templates/optimization/export.php:54
+msgid "Include Header Row:"
+msgstr "Inkludera rubrikrad:"
+
+#: includes/admin/templates/optimization/export.php:48
+msgid "Select the output file type."
+msgstr "Välj formattyp för datafilen som skapas."
+
+#: includes/admin/templates/optimization/export.php:37
+msgid "Export To:"
+msgstr "Exportera till:"
+
+#: includes/admin/templates/optimization/export.php:30
+msgid "Select the table for the output file."
+msgstr "Välj tabellen för utdatafilen."
+
+#: includes/admin/templates/optimization/database.php:49
+#: includes/admin/templates/optimization/export.php:19
+#: includes/admin/templates/optimization/export.php:42
+#: includes/admin/templates/optimization/purging.php:211
+#: includes/admin/templates/optimization/purging.php:283
+#: includes/admin/templates/optimization/purging.php:309
+#: includes/admin/templates/settings/exclusions.php:119
+#: includes/admin/templates/settings/general.php:236
+#: includes/admin/templates/settings/notifications.php:93
+#: includes/admin/templates/settings/notifications.php:128
+msgid "Please select"
+msgstr "Välj"
+
+#: includes/admin/templates/optimization/export.php:14
+msgid "Export from:"
+msgstr "Exportera från:"
+
+#: includes/admin/templates/layout/tabs-optimization.php:3
+#: includes/admin/templates/optimization/export.php:9
+msgid "Export"
+msgstr "Exportera"
+
+#: includes/admin/templates/optimization/historical.php:47
+#: includes/admin/templates/optimization/updates.php:27
+#: includes/admin/templates/optimization/updates.php:43
+msgid "Update Now!"
+msgstr "Uppdatera nu!"
+
+#: includes/admin/class-wp-statistics-admin-network.php:67
+#: includes/class-wp-statistics-menus.php:229
+msgid "Countries"
+msgstr "Länder"
+
+#: includes/admin/templates/optimization/database.php:15
+msgid "If for some reason your installation of WP Statistics is missing the database tables or other core items, this will re-execute the install process."
+msgstr "Om installationen av WP Statistics råkar sakna någon databastabell eller komponent, kan detta användas för att upprepa installationen."
+
+#: includes/admin/templates/optimization/database.php:14
+msgid "Install Now!"
+msgstr "Installera nu!"
+
+#: includes/admin/templates/optimization/database.php:11
+msgid "Re-run Install:"
+msgstr "Kör om installation:"
+
+#: includes/admin/templates/optimization/database.php:6
+msgid "Database Setup"
+msgstr "Databaskonfiguration"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:261
+#: includes/admin/templates/optimization/resources.php:281
+msgid "Version"
+msgstr "Version"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:259
+msgid "Agent"
+msgstr "Agent"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:256
+#: includes/admin/templates/pages/online.php:18
+#: includes/admin/templates/pages/refer.url.php:30
+#: includes/admin/templates/pages/top-visitors.php:26
+#: includes/admin/templates/pages/visitors.php:38
+#: includes/admin/templates/pages/words.php:34
+msgid "IP"
+msgstr "IP"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:258
+#: includes/admin/class-wp-statistics-admin-network.php:60
+#: includes/admin/class-wp-statistics-admin-post.php:60
+#: includes/admin/class-wp-statistics-admin-taxonomy.php:56
+#: includes/admin/class-wp-statistics-admin-taxonomy.php:63
+#: includes/admin/templates/optimization/purging.php:254
+#: includes/admin/templates/pages/top-visitors.php:30
+#: includes/admin/templates/settings/maintenance.php:70
+#: includes/class-wp-statistics-menus.php:180
+msgid "Hits"
+msgstr "Träffar"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:35
+msgid "(Adjustment)"
+msgstr "(Justering)"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:34
+msgid "Current Time and Date"
+msgstr "Nuvarande datum och tid"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:241
+msgid "Daily Total"
+msgstr "Totalt antal dagligen"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:239
+msgid "Last 365 Days (Year)"
+msgstr "Senaste 365 dagarna (år)"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:238
+msgid "Last 30 Days (Month)"
+msgstr "Senaste 30 dagarna (månad)"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:237
+msgid "Last 7 Days (Week)"
+msgstr "Senaste 7 dagarna (vecka)"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:236
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:55
+msgid "Yesterday"
+msgstr "Igår"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:235
+#: includes/admin/class-wp-statistics-admin-assets.php:353
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:54
+msgid "Today"
+msgstr "Idag"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:252
+msgid "Address"
+msgstr "Adress"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-browsers.php:123
+msgid "Other"
+msgstr "Annat"
+
+#: includes/admin/templates/meta-box/about.php:7
+msgid "Website"
+msgstr "Webbplats"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:242
+#: includes/admin/templates/pages/refer.url.php:35
+#: includes/admin/templates/pages/top-visitors.php:2
+#: includes/admin/templates/pages/top-visitors.php:25
+#: includes/admin/templates/pages/visitors.php:34
+#: includes/admin/templates/pages/words.php:33
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-referring.php:36
+#: includes/admin/templates/pages/top.refer.php:26
+msgid "References"
+msgstr "Referenser"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:234
+#: includes/admin/class-wp-statistics-admin-user.php:33
+#: includes/admin/templates/optimization/historical.php:37
+#: includes/admin/templates/pages/hits.php:23
+#: includes/admin/templates/pages/pages.php:41
+#: includes/admin/templates/settings/general.php:60
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:37
+#: includes/class-wp-statistics-shortcode.php:169
+msgid "Visits"
+msgstr "Besök"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-post.php:60
+msgid "Number of Hits"
+msgstr "Antal träffar"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-pages.php:63
+msgid "Top Pages"
+msgstr "Mest besökta sidor"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:248
+msgid "Visitor Count"
+msgstr "Antal besökare"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:247
+#: includes/admin/templates/pages/online.php:13
+#: includes/admin/templates/pages/refer.url.php:33
+#: includes/admin/templates/pages/top-visitors.php:20
+#: includes/admin/templates/pages/top.refer.php:24
+#: includes/admin/templates/pages/visitors.php:27
+#: includes/admin/templates/pages/words.php:28
+msgid "Country"
+msgstr "Land"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:246
+msgid "Flag"
+msgstr "Flagga"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:245
+msgid "Rank"
+msgstr "Rankning"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-country.php:36
+msgid "Top Countries"
+msgstr "Topplacerade länder"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-searches.php:34
+msgid "Search Engine Referral Statistics"
+msgstr "Sökmotorlänkningar"
+
+#: includes/admin/templates/pages/online.php:19
+msgid "Online For"
+msgstr "Online i"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:232
+#: includes/admin/pages/class-wp-statistics-admin-page-online.php:25
+#: includes/admin/templates/settings/general.php:11
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:36
+#: includes/class-wp-statistics-meta-box.php:178
+#: includes/class-wp-statistics-shortcode.php:168
+#: includes/class-wp-statistics-widget.php:41
+#: includes/class-wp-statistics-widget.php:263
+msgid "Online Users"
+msgstr "Användare online"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:92
+msgid "Donate Now!"
+msgstr "Donera nu!"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:92
+msgid "Have you thought about donating to WP Statistics?"
+msgstr "Kan du tänka dig en donation till WP Statistics?"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:262
+#: includes/admin/templates/pages/online.php:20
+#: includes/admin/templates/pages/visitors.php:44
+msgid "Page"
+msgstr "Sida"
+
+#: includes/admin/templates/pages/online.php:48
+#: includes/admin/templates/pages/refer.url.php:53
+#: includes/admin/templates/pages/top-visitors.php:57
+#: includes/admin/templates/pages/visitors.php:83
+#: includes/admin/templates/settings/overview-display.php:32
+msgid "Map"
+msgstr "Karta"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:275
+#: includes/admin/class-wp-statistics-admin-template.php:220
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:58
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:60
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:61
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:54
+#: includes/admin/pages/class-wp-statistics-admin-page-words.php:44
+#: includes/admin/templates/optimization/database.php:55
+#: includes/admin/templates/optimization/purging.php:217
+#: includes/admin/templates/pages/refer.url.php:3
+#: includes/admin/templates/pages/top.refer.php:4
+#: includes/class-wp-statistics-widget.php:325
+msgid "All"
+msgstr "Allt"
+
+#: includes/admin/templates/pages/exclusions.php:31
+#: includes/admin/templates/pages/hits.php:37
+msgid "All Time Total:"
+msgstr "Totalt antal över tid:"
+
+#: includes/admin/class-wp-statistics-admin-network.php:70
+#: includes/admin/templates/layout/tabs-settings.php:9
+#: includes/admin/templates/pages/exclusions.php:22
+#: includes/admin/templates/settings/exclusions.php:5
+#: includes/class-wp-statistics-menus.php:278
+#: includes/class-wp-statistics-meta-box.php:208
+msgid "Exclusions"
+msgstr "Exkluderingar"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-exclusions.php:35
+msgid "Exclusions Statistics"
+msgstr "Exkluderingsstatistik"
+
+#: includes/class-wp-statistics-exclusion.php:26
+msgid "Referrer Spam"
+msgstr "Manipulerade referenskällor"
+
+#: includes/class-wp-statistics-exclusion.php:29
+msgid "Excluded URL"
+msgstr "Exkluderad URL"
+
+#: includes/class-wp-statistics-exclusion.php:34
+msgid "Robot threshold"
+msgstr "Tröskelvärde för robot"
+
+#: includes/class-wp-statistics-exclusion.php:31
+msgid "Host name"
+msgstr "Servernamn"
+
+#: includes/class-wp-statistics-exclusion.php:32
+msgid "GeoIP"
+msgstr "GeoIP"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:240
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:59
+msgid "Total"
+msgstr "Totalt"
+
+#: includes/class-wp-statistics-exclusion.php:30
+msgid "User Role"
+msgstr "Användarroll"
+
+#: includes/class-wp-statistics-exclusion.php:25
+msgid "Admin Page"
+msgstr "Administrationssida"
+
+#: includes/class-wp-statistics-exclusion.php:24
+#: includes/class-wp-statistics-pages.php:358
+msgid "Login Page"
+msgstr "Inloggningssida"
+
+#: includes/class-wp-statistics-exclusion.php:23
+msgid "Self Referral"
+msgstr "Länk till sig själv"
+
+#: includes/class-wp-statistics-exclusion.php:22
+msgid "IP Match"
+msgstr "IP-matchning"
+
+#: includes/class-wp-statistics-exclusion.php:20
+msgid "Robot"
+msgstr "Robot"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:260
+#: includes/admin/templates/optimization/resources.php:292
+#: includes/admin/templates/pages/top-visitors.php:27
+#: includes/admin/templates/pages/visitors.php:39
+msgid "Platform"
+msgstr "Plattform"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:244
+#: includes/admin/class-wp-statistics-admin-network.php:68
+#: includes/class-wp-statistics-menus.php:257
+msgid "Browsers"
+msgstr "Webbläsare"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-browsers.php:37
+msgid "Browser Statistics"
+msgstr "Webbläsarstatistik"
+
+#: includes/class-wp-statistics-purge.php:172
+msgid "Please select a value over 30 days."
+msgstr "Välj ett värde över 30 dagar."
+
+#: includes/class-wp-statistics-purge.php:48
+#: includes/class-wp-statistics-purge.php:78
+#: includes/class-wp-statistics-purge.php:89
+#: includes/class-wp-statistics-purge.php:99
+#: includes/class-wp-statistics-purge.php:162
+msgid "No records found to purge from %s!"
+msgstr "Det finns inga dataposter att rensa i %s!"
+
+#: includes/class-wp-statistics-purge.php:46
+#: includes/class-wp-statistics-purge.php:76
+#: includes/class-wp-statistics-purge.php:87
+#: includes/class-wp-statistics-purge.php:97
+#: includes/class-wp-statistics-purge.php:160
+msgid "%s data older than %s days purged successfully."
+msgstr "Data i %s äldre än %s dagar har rensats."
+
+#: includes/class-wp-statistics-purge.php:167
+#: includes/class-wp-statistics-purge.php:227
+msgid "Database pruned on"
+msgstr "Databasrensning pågår"
+
+#: includes/class-wp-statistics-purge.php:220
+msgid "No visitors found to purge."
+msgstr "Inga besökare att rensa bort."
+
+#: includes/class-wp-statistics-purge.php:216
+msgid "%s records purged successfully."
+msgstr "%s dataposter rensades."
+
+#: includes/class-wp-statistics-geoip.php:429
+msgid "Updated %s GeoIP records in the visitors database."
+msgstr "Uppdaterat %s GeoIP poster i besökardatabasen."
+
+#: includes/class-wp-statistics-geoip.php:398
+msgid "Unable to load the GeoIP database, make sure you have downloaded it in the settings page."
+msgstr "Det gick inte att läsa in databasen för GeoIP, se till att du har hämtat den på inställningssidan."
+
+#: includes/class-wp-statistics-db.php:138
+msgid "Error, %s not emptied!"
+msgstr "Fel, %s inte tömd!"
+
+#: includes/class-wp-statistics-db.php:134
+msgid "%s table data deleted successfully."
+msgstr "%s tabelldata togs bort utan problem."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:269
+#: includes/admin/templates/layout/date.range.php:55
+#: includes/admin/templates/pages/top-visitors.php:5
+msgid "Go"
+msgstr "Kör"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:267
+#: includes/admin/templates/layout/date.range.php:53
+msgid "to"
+msgstr "till"
+
+#: includes/admin/class-wp-statistics-admin-template.php:214
+msgid "1 Year"
+msgstr "1 år"
+
+#: includes/admin/class-wp-statistics-admin-template.php:213
+msgid "9 Months"
+msgstr "9 månader"
+
+#: includes/admin/class-wp-statistics-admin-template.php:212
+msgid "6 Months"
+msgstr "6 månader"
+
+#: includes/admin/class-wp-statistics-admin-template.php:211
+msgid "3 Months"
+msgstr "3 månader"
+
+#: includes/admin/class-wp-statistics-admin-template.php:210
+msgid "2 Months"
+msgstr "2 månader"
+
+#: includes/admin/class-wp-statistics-admin-template.php:209
+msgid "30 Days"
+msgstr "30 dagar"
+
+#: includes/admin/class-wp-statistics-admin-template.php:208
+msgid "20 Days"
+msgstr "20 dagar"
+
+#: includes/admin/class-wp-statistics-admin-template.php:207
+msgid "10 Days"
+msgstr "10 dagar"
+
+#: includes/class-wp-statistics-search-engine.php:107
+msgid "Yandex"
+msgstr "Yandex"
+
+#: includes/class-wp-statistics-search-engine.php:97
+msgid "Yahoo!"
+msgstr "Yahoo"
+
+#: includes/class-wp-statistics-search-engine.php:87
+msgid "Google"
+msgstr "Google"
+
+#: includes/class-wp-statistics-search-engine.php:77
+msgid "DuckDuckGo"
+msgstr "DuckDuckGo"
+
+#: includes/class-wp-statistics-search-engine.php:67
+msgid "clearch.org"
+msgstr "clearch.org"
+
+#: includes/class-wp-statistics-search-engine.php:57
+msgid "Bing"
+msgstr "Bing"
+
+#: includes/class-wp-statistics-search-engine.php:47
+msgid "Baidu"
+msgstr "Baidu"
+
+#: includes/class-wp-statistics-search-engine.php:37
+msgid "Ask.com"
+msgstr "Ask.com"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-hits.php:91
+msgid "Hits in the last %s days"
+msgstr "Träffar under de senaste %s dagarna"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-post.php:20
+msgid "This post is not yet published."
+msgstr "Detta inlägg är ännu inte publicerat."
+
+#: includes/class-wp-statistics-meta-box.php:156
+msgid "Top 10 Visitors Today"
+msgstr "Besökarnas 10 i topp idag"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-words.php:36
+#: includes/class-wp-statistics-meta-box.php:147
+msgid "Latest Search Words"
+msgstr "Senaste sökorden"
+
+#: includes/class-wp-statistics-meta-box.php:84
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:33
+#: includes/class-wp-statistics-meta-box.php:139
+#: includes/class-wp-statistics-widget.php:118
+#: includes/class-wp-statistics-widget.php:307
+msgid "Search Engine Referrals"
+msgstr "Sökmotorshänvisningar"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-refer.php:37
+msgid "Top Referring Sites"
+msgstr "Länkkällornas 10 i topp"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:32
+#: includes/class-wp-statistics-meta-box.php:164
+msgid "Recent Visitors"
+msgstr "Senaste besökarna"
+
+#: includes/class-wp-statistics-meta-box.php:123
+msgid "Top 10 Pages"
+msgstr "Mest besökta sidor"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-hits.php:34
+#: includes/class-wp-statistics-meta-box.php:115
+#: includes/class-wp-statistics-meta-box.php:192
+msgid "Hit Statistics"
+msgstr "Träffstatistik"
+
+#: includes/class-wp-statistics-meta-box.php:171
+msgid "Today's Visitors Map"
+msgstr "Dagens besökarkarta"
+
+#: includes/class-wp-statistics-meta-box.php:107
+msgid "Top 10 Countries"
+msgstr "Länders 10 i topp"
+
+#: includes/class-wp-statistics-meta-box.php:91
+msgid "Top 10 Browsers"
+msgstr "Webbläsarnas 10 i topp"
+
+#: includes/class-wp-statistics-meta-box.php:77
+msgid "Quick Stats"
+msgstr "Snabbstatistik"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:284
+#: includes/class-wp-statistics-purge.php:223
+msgid "Number of hits must be greater than or equal to 10!"
+msgstr "Antal träffar måste vara större än eller lika med 10!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:146
+msgid "No platform data found to remove!"
+msgstr "Ingen plattformsdata hittades att ta bort!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:144
+msgid "%s platform data deleted successfully."
+msgstr "%s plattformsdata har tagits bort utan problem."
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:115
+#: includes/admin/class-wp-statistics-admin-ajax.php:152
+#: includes/admin/class-wp-statistics-admin-ajax.php:188
+#: includes/admin/class-wp-statistics-admin-ajax.php:218
+#: includes/admin/class-wp-statistics-admin-ajax.php:235
+#: includes/admin/class-wp-statistics-admin-ajax.php:260
+#: includes/admin/class-wp-statistics-admin-ajax.php:289
+msgid "Access denied!"
+msgstr "Åtkomst nekad!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:112
+#: includes/admin/class-wp-statistics-admin-ajax.php:149
+#: includes/admin/class-wp-statistics-admin-ajax.php:185
+#: includes/admin/class-wp-statistics-admin-ajax.php:207
+msgid "Please select the desired items."
+msgstr "Välj önskade alternativ"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:108
+msgid "No agent data found to remove!"
+msgstr "Ingen agentdata finns att ta bort!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:106
+msgid "%s agent data deleted successfully."
+msgstr "%s agentdata har raderats."

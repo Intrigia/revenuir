@@ -1,0 +1,18 @@
+php_flag display_errors on
+php_flag display_startup_errors on
+php_value error_reporting 2047
+
+# MC4WP Start
+# Apache 2.2
+<IfModule !authz_core_module>
+<Files mc4wp-debug-log.php>
+deny from all
+</Files>
+</IfModule>
+# Apache 2.4+
+<IfModule authz_core_module>
+<Files mc4wp-debug-log.php>
+Require all denied
+</Files>
+</IfModule>
+# MC4WP End
